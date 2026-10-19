@@ -1,8 +1,8 @@
 """The Void Gate setup window (tkinter): pages Welcome -> Game folder -> Installing -> Done, or the uninstaller's
 Uninstall -> Removing -> Done. The work itself is tools/vg_setup.py's (passed in as S, the running module).
 
-Dark, with the rifts' violet as the accent. Text follows the Windows language (Russian or English) and can be
-switched at the bottom left. Sizes are given at 96 dpi and scaled to the screen; the side picture comes in five
+Dark, with the rifts' violet as the accent. Text is English by default and can be switched to
+Russian at the bottom left. Sizes are given at 96 dpi and scaled to the screen; the side picture comes in five
 sizes (d2mods/VoidGate/art/setup, made by tools/vg_build.py's caller once).
 """
 import ctypes

@@ -106,7 +106,7 @@ python tools\vg_build.py --no-exe    only the payload (for the offline setup tes
 ```
 
 `VoidGateSetup.exe [game folder] [--lang=en|ru]` opens the setup window (tools/vg_setup_gui.py: Welcome -> Game
-folder -> Installing -> Done; Russian on a Russian Windows, else English; restarts itself elevated via UAC when the
+folder -> Installing -> Done; English by default, Russian by the switch; restarts itself elevated via UAC when the
 game folder is not writable, `--go=install|uninstall` then continues where it was). For scripts and tests:
 `python tools\vg_setup.py [game folder] install|uninstall [--yes]` (the console path; the exe has no console).
 Scenario tests of the window on fake game folders: scratch scripts test_gui.py / click_uninstall.py (all pages,

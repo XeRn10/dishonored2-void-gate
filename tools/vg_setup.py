@@ -38,15 +38,7 @@ def here():
 PAYLOAD = os.path.join(here(), "payload")
 
 
-def windows_lang():
-    """'ru' on a Russian Windows, else 'en'."""
-    try:
-        return "ru" if ctypes.windll.kernel32.GetUserDefaultUILanguage() & 0x3FF == 0x19 else "en"
-    except Exception:  # noqa: BLE001
-        return "en"
-
-
-LANG = windows_lang()
+LANG = "en"  # English unless --lang=ru or the window's language switch says otherwise
 SAY = None  # the window's message hook (vg_setup_gui); None = print to the console
 
 
