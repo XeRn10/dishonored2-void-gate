@@ -1,0 +1,50 @@
+{
+	state {
+		cull none
+	}
+	
+	options {
+		fx/opt/radial_ramp	 		0
+		fx/opt/use_lookup 			0
+		fx/opt/use_diffuse			0
+		fx/opt/opacity_rot			0
+		
+		fx/opt/uv_disto1 			1
+		fx/opt/uv_disto1_rot		0
+		fx/opt/uv_disto1_uniform	0
+		fx/opt/uv_disto2 			0
+		fx/opt/uv_disto2_rot		0
+		fx/opt/uv_disto2_uniform	0
+		
+		fx/opt/uv_Disto2xDisto1 	0
+		fx/opt/use_disto_has_mask	0
+		
+		fx/opt/use_lighting			0
+		fx/opt/use_softcontact		2
+		fx/opt/use_flipbook			0
+		fx/opt/flipbook_is_mask		0
+		fx/opt/view_dependent_fade	1
+		fx/opt/fresnel		0
+	}
+
+	mainProgram		particle/dist_blur
+
+	fx/opacity		models/effects/textures/masks/ring_m.tga
+	fx/disto1		models/effects/textures/vector_field/vf_turning_n.tga
+
+	opacity_Tilling		{ 1, 1, 0, 0 }
+	opacity_PanningSpeed{ 0, 0, 0, 0 }
+
+	
+	disto1_strength		{ 0, 0, -0.005, -0.005 }
+	disto1_tilling		{ 0.2, 0.1, 1, 1 }
+	disto1_rotationspeed{ 0, 0, 0, 0 }
+	
+	
+	
+	radial_RampPow	{ 0.1, 0, 0, 0 }
+	color_Adjust	{ 1, 1, 1, 1 }
+	material_seed	{ 3, 0, 0, 0 }
+	particledistancefadeout		1.5
+	particlefresnelstrength		10
+}

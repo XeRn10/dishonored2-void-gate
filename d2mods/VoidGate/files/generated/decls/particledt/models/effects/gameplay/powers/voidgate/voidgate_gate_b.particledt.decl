@@ -1,0 +1,757 @@
+{
+	edit = {
+		m_visibility = {
+			m_alwaysSimulate = true;
+			m_worldBoundingBox = {
+				m_max = {
+					x = 3;
+					y = 3;
+					z = 3;
+				}
+				m_min = {
+					x = -3;
+					y = -3;
+					z = -3;
+				}
+			}
+		}
+		m_stages = {
+			num = 4;
+			item[0] = {
+				m_main = {
+					m_name = "gate_void";
+				}
+				m_spawn = {
+					m_rate = {
+						m_max = 5;
+						m_min = 5;
+					}
+					m_life = {
+						m_max = 1.2;
+						m_min = 1.2;
+					}
+					m_initialVelocity = {
+						m_value = {
+							m_max = {
+								z = 0;
+							}
+							m_min = {
+								z = 0;
+							}
+						}
+					}
+				}
+				m_sprites = {
+					num = 0;
+				}
+				m_meshes = {
+					num = 1;
+					item[0] = {
+						m_orientation = {
+							m_mode = "VECTOR_PLANAR";
+							m_primaryAxis = {
+								m_value = {
+									m_max = {
+										x = 1;
+										y = 0;
+										z = 0;
+									}
+									m_min = {
+										x = 1;
+										y = 0;
+										z = 0;
+									}
+								}
+								m_worldspace = false;
+							}
+							m_viewAsOrientationAxis = false;
+							m_secondaryAxis = {
+								m_value = {
+									m_max = {
+										x = 0;
+										y = 0;
+										z = 1;
+									}
+									m_min = {
+										x = 0;
+										y = 0;
+										z = 1;
+									}
+								}
+								m_worldspace = false;
+							}
+						}
+						m_mesh = "models/effects/meshes/plane_1m_vfx.lwo";
+						m_material = "models/effects/materials/gameplay/powers/voidgate/voidgate_void.material";
+						m_spawn = {
+							m_initialSize = {
+								m_max = {
+									x = 2.6599999999999997;
+									y = 1.615;
+									z = 1;
+								}
+								m_min = {
+									x = 2.6599999999999997;
+									y = 1.615;
+									z = 1;
+								}
+							}
+						}
+						m_alphaOverLife = {
+							m_curve = {
+								m_maxCurve = {
+									m_times = {
+										num = 3;
+										item[1] = 0.499076128;
+										item[2] = 1;
+									}
+									m_values = {
+										num = 9;
+										item[7] = 0;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			item[1] = {
+				m_main = {
+					m_name = "vortex_taurus_blue";
+				}
+				m_spawn = {
+					m_rate = {
+						m_max = 5;
+						m_min = 5;
+					}
+					m_life = {
+						m_max = 1.2;
+						m_min = 1.2;
+					}
+					m_initialVelocity = {
+						m_value = {
+							m_max = {
+								z = 0;
+							}
+							m_min = {
+								z = 0;
+							}
+						}
+					}
+				}
+				m_sprites = {
+					num = 0;
+				}
+				m_meshes = {
+					num = 1;
+					item[0] = {
+						m_orientation = {
+							m_mode = "VECTOR_PLANAR";
+							m_primaryAxis = {
+								m_value = {
+									m_max = {
+										x = 1;
+										y = 0;
+										z = 0;
+									}
+									m_min = {
+										x = 1;
+										y = 0;
+										z = 0;
+									}
+								}
+								m_worldspace = false;
+							}
+							m_viewAsOrientationAxis = false;
+							m_secondaryAxis = {
+								m_value = {
+									m_max = {
+										x = 0;
+										y = 0;
+										z = 1;
+									}
+									m_min = {
+										x = 0;
+										y = 0;
+										z = 1;
+									}
+								}
+								m_worldspace = false;
+							}
+						}
+						m_mesh = "models/effects/meshes/torus_1m.lwo";
+						m_material = "models/effects/materials/gameplay/powers/voidgate/voidgate_rim_b.material";
+						m_spawn = {
+							m_initialSize = {
+								m_max = {
+									x = 2.8;
+									y = 1.7;
+									z = 1;
+								}
+								m_min = {
+									x = 2.8;
+									y = 1.7;
+									z = 1;
+								}
+							}
+						}
+						m_alphaOverLife = {
+							m_curve = {
+								m_maxCurve = {
+									m_times = {
+										num = 3;
+										item[1] = 0.499076128;
+										item[2] = 1;
+									}
+									m_values = {
+										num = 9;
+										item[7] = 0;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			item[2] = {
+				m_worldspace = false;
+				m_main = {
+					m_name = "gate_edge";
+				}
+				m_spawn = {
+					m_rate = {
+						m_max = 90;
+						m_min = 90;
+					}
+					m_life = {
+						m_max = 0.5;
+						m_min = 0.3;
+					}
+					m_initialVelocity = {
+						m_value = {
+							m_max = {
+								z = 0;
+							}
+							m_min = {
+								z = 0;
+							}
+						}
+					}
+					m_spawnMesh = {
+						m_mesh = "models/effects/map_specific/void_house/rocks/portal/spawn_portal.lwo";
+						m_scale = {
+							m_max = {
+								x = 0.3;
+								y = 0.4597079502433748;
+								z = 0.611353711790393;
+							}
+							m_min = {
+								x = 0.3;
+								y = 0.4597079502433748;
+								z = 0.611353711790393;
+							}
+						}
+					}
+				}
+				m_simulationPrecision = 1.3600000143;
+				m_sprites = {
+					item[0] = {
+						m_material = "models/effects/materials/gameplay/powers/voidgate/voidgate_spark_b.material";
+						m_spawn = {
+							m_initialAlpha = {
+								m_curve = {
+									m_maxCurve = {
+										m_times = {
+											num = 2;
+											item[1] = 0.9984976053;
+										}
+										m_values = {
+											num = 6;
+											item[4] = 1;
+										}
+									}
+								}
+							}
+							m_initialSize = {
+								m_max = {
+									x = 0.045;
+									y = 0.045;
+									z = 0.045;
+								}
+								m_min = {
+									x = 0.025;
+									y = 0.025;
+									z = 0.025;
+								}
+							}
+						}
+						m_alphaOverLife = {
+							m_curve = {
+								m_maxCurve = {
+									m_times = {
+										num = 3;
+										item[1] = 0.1097968817;
+										item[2] = 1;
+									}
+									m_values = {
+										num = 9;
+										item[3] = 0.0955280438;
+										item[4] = 0.99158144;
+										item[5] = -0.7745152712;
+										item[7] = 0;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			item[3] = {
+				m_worldspace = false;
+				m_main = {
+					m_name = "vortex_rocks_small";
+				}
+				m_spawn = {
+					m_rate = {
+						m_max = 14;
+						m_min = 14;
+					}
+					m_life = {
+						m_max = 4;
+						m_min = 3;
+					}
+					m_initialVelocity = {
+						m_value = {
+							m_max = {
+								x = -0.35;
+								z = 0;
+							}
+							m_min = {
+								x = -0.35;
+								z = 0;
+							}
+						}
+					}
+					m_spawnMesh = {
+						m_mesh = "models/effects/map_specific/void_house/rocks/portal/spawn_portal.lwo";
+						m_scale = {
+							m_max = {
+								x = 0.6;
+								y = 0.7355327203893998;
+								z = 0.8558951965065501;
+							}
+							m_min = {
+								x = 0.6;
+								y = 0.7355327203893998;
+								z = 0.8558951965065501;
+							}
+						}
+					}
+				}
+				m_simulationPrecision = 1.3600000143;
+				m_velocityOverLife = {
+					m_curve = {
+						m_maxCurve = {
+							m_times = {
+								num = 2;
+								item[0] = 0.2030110955;
+								item[1] = 0.501535058;
+							}
+							m_values = {
+								num = 6;
+								item[1] = {
+									x = 0;
+									y = 0;
+									z = 0;
+								}
+								item[4] = {
+									x = 0.9996763468;
+									y = 0.9996763468;
+									z = 0.9996763468;
+								}
+							}
+						}
+					}
+				}
+				m_vectorFields = {
+					num = 2;
+					item[0] = {
+						m_textures = {
+							m_yz = {
+								m_texture = "models/testassets/tguichard/vector_fields/swirl_01_vf.tga";
+							}
+						}
+						m_position = {
+							m_max = {
+								x = -4;
+							}
+							m_min = {
+								x = -4;
+							}
+						}
+						m_scale = {
+							m_max = {
+								x = 8;
+								y = 7;
+								z = 10;
+							}
+							m_min = {
+								x = 8;
+								y = 7;
+								z = 10;
+							}
+						}
+						m_strengthOverLife = {
+							m_max = {
+								x = 0.75;
+								y = 0.75;
+								z = 0.75;
+							}
+							m_min = {
+								x = 0.75;
+								y = 0.75;
+								z = 0.75;
+							}
+							m_curve = {
+								m_maxCurve = {
+									m_times = {
+										num = 2;
+										item[1] = 0.7843484282;
+									}
+									m_values = {
+										num = 6;
+										item[0] = {
+											x = -0.31972;
+											y = -0.3202896118;
+											z = -0.3197200894;
+										}
+										item[1] = {
+											x = 0;
+											y = 0;
+											z = 0;
+										}
+										item[2] = {
+											x = 0.31972;
+											y = 0.3202896118;
+											z = 0.3197200894;
+										}
+										item[4] = {
+											x = 2.2678470612;
+											y = 2.2678470612;
+											z = 2.2678470612;
+										}
+									}
+								}
+							}
+						}
+					}
+					item[1] = {
+						m_textures = {
+							m_yz = {
+								m_texture = "models/testassets/tguichard/vector_fields/int_to_ext_vf.tga";
+							}
+						}
+						m_position = {
+							m_max = {
+								x = -4;
+							}
+							m_min = {
+								x = -4;
+							}
+						}
+						m_scale = {
+							m_max = {
+								x = 8;
+								y = 7;
+								z = 10;
+							}
+							m_min = {
+								x = 8;
+								y = 7;
+								z = 10;
+							}
+						}
+						m_strengthOverLife = {
+							m_max = {
+								x = 0.25;
+								y = 0.25;
+								z = 0.25;
+							}
+							m_min = {
+								x = 0.25;
+								y = 0.25;
+								z = 0.25;
+							}
+							m_curve = {
+								m_maxCurve = {
+									m_times = {
+										num = 3;
+										item[1] = 0.4990634918;
+										item[2] = 0.755846858;
+									}
+									m_values = {
+										num = 9;
+										item[0] = {
+											x = -0.3489379585;
+											y = -0.3495596945;
+											z = -0.3489380777;
+										}
+										item[1] = {
+											x = 0.1000000015;
+											y = 0.1000000015;
+											z = 0.1000000015;
+										}
+										item[2] = {
+											x = 0.3489379585;
+											y = 0.3495596945;
+											z = 0.3489380777;
+										}
+										item[4] = {
+											x = 0.9831626415;
+											y = 0.9831626415;
+											z = 0.9831626415;
+										}
+										item[7] = {
+											x = 2.8941943645;
+											y = 2.8941943645;
+											z = 2.8941943645;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				m_accelerationOverLife = {
+					m_value = {
+						m_max = {
+							x = 0.5;
+						}
+						m_min = {
+							x = 0.25;
+						}
+					}
+				}
+				m_sprites = {
+					num = 0;
+				}
+				m_meshes = {
+					num = 1;
+					item[0] = {
+						m_mesh = "models/effects/map_specific/void_house/meshes/void_rock.lwo";
+						m_material = "models/environment/voidhouse/rock_set/void_rock_01.material";
+						m_spawn = {
+							m_initialSize = {
+								m_max = {
+									x = 0.04;
+									y = 0.04;
+									z = 0.04;
+								}
+								m_min = {
+									x = 0.04;
+									y = 0.04;
+									z = 0.04;
+								}
+								m_uniform = true;
+							}
+							m_initialRotation = {
+								m_max = {
+									x = 360;
+									y = 360;
+									z = 360;
+								}
+							}
+						}
+						m_sizeOverLife = {
+							m_max = {
+								x = 0.25;
+								y = 0.25;
+								z = 0.25;
+							}
+							m_min = {
+								x = 0.150000006;
+								y = 0.150000006;
+								z = 0.150000006;
+							}
+							m_curve = {
+								m_maxCurve = {
+									m_times = {
+										num = 3;
+										item[1] = 0.7985679507;
+										item[2] = 0.9980442524;
+									}
+									m_values = {
+										num = 9;
+										item[1] = {
+											x = 0;
+											y = 0;
+											z = 0;
+										}
+										item[3] = {
+											x = -0.9999997616;
+											y = -0.9999997616;
+											z = -0.9999997616;
+										}
+										item[4] = {
+											x = 2.0507400036;
+											y = 2.0507400036;
+											z = 2.0507400036;
+										}
+										item[5] = {
+											x = 0.3000000119;
+											y = 0.3000000119;
+											z = 0.3000000119;
+										}
+									}
+								}
+							}
+						}
+						m_pivotOffsetOverLife = {
+							m_max = {
+								x = 1;
+								y = 1;
+								z = 1;
+							}
+							m_min = {
+								x = -1;
+								y = -1;
+								z = -1;
+							}
+							m_curve = {
+								m_maxCurve = {
+									m_times = {
+										num = 21;
+										item[1] = 0.1491510868;
+										item[2] = 0.19236736;
+										item[3] = 0.2260840684;
+										item[4] = 0.2360839099;
+										item[5] = 0.2901185155;
+										item[6] = 0.3507544398;
+										item[7] = 0.3607544303;
+										item[8] = 0.4618732333;
+										item[9] = 0.4727726281;
+										item[10] = 0.4873259366;
+										item[11] = 0.5061932802;
+										item[12] = 0.5291949511;
+										item[13] = 0.5810482502;
+										item[14] = 0.6035548449;
+										item[15] = 0.8403499126;
+										item[16] = 0.8503499031;
+										item[17] = 0.870106101;
+										item[18] = 0.905236125;
+										item[19] = 0.9223318696;
+										item[20] = 1.0003752708;
+									}
+									m_values = {
+										num = 63;
+										item[4] = {
+											x = 1;
+											y = 1;
+											z = 1;
+										}
+										item[7] = {
+											x = 0.8870869875;
+											y = 0.8870869875;
+											z = 0.8870869875;
+										}
+										item[10] = {
+											x = 1.0335832834;
+											y = 1.0335832834;
+											z = 1.0335832834;
+										}
+										item[13] = {
+											x = 0.9150805473;
+											y = 0.9150805473;
+											z = 0.9150805473;
+										}
+										item[16] = {
+											x = 1.0392817259;
+											y = 1.0392817259;
+											z = 1.0392817259;
+										}
+										item[19] = {
+											x = 0.895663321;
+											y = 0.895663321;
+											z = 0.895663321;
+										}
+										item[22] = {
+											x = 1.1024236679;
+											y = 1.1024236679;
+											z = 1.1024236679;
+										}
+										item[25] = {
+											x = 1.0969896317;
+											y = 1.0969896317;
+											z = 1.0969896317;
+										}
+										item[28] = {
+											x = 0.916565299;
+											y = 0.916565299;
+											z = 0.916565299;
+										}
+										item[31] = {
+											x = 1.0142428875;
+											y = 1.0142428875;
+											z = 1.0142428875;
+										}
+										item[34] = {
+											x = 0.8566071987;
+											y = 0.8566071987;
+											z = 0.8566071987;
+										}
+										item[37] = {
+											x = 1.0245434046;
+											y = 1.0245434046;
+											z = 1.0245434046;
+										}
+										item[40] = {
+											x = 0.906027019;
+											y = 0.906027019;
+											z = 0.906027019;
+										}
+										item[43] = {
+											x = 1.0041029453;
+											y = 1.0041029453;
+											z = 1.0041029453;
+										}
+										item[46] = {
+											x = 1.0014636517;
+											y = 1.0014636517;
+											z = 1.0014636517;
+										}
+										item[49] = {
+											x = 0.9352839589;
+											y = 0.9352839589;
+											z = 0.9352839589;
+										}
+										item[52] = {
+											x = 1.0587828159;
+											y = 1.0587828159;
+											z = 1.0587828159;
+										}
+										item[55] = {
+											x = 0.9500157833;
+											y = 0.9500157833;
+											z = 0.9500157833;
+										}
+										item[58] = {
+											x = 1.0005719662;
+											y = 1.0005719662;
+											z = 1.0005719662;
+										}
+										item[61] = {
+											x = 1;
+											y = 1;
+											z = 1;
+										}
+									}
+								}
+							}
+						}
+						m_rotationOrder = "YXZ";
+					}
+				}
+			}
+		}
+	}
+}

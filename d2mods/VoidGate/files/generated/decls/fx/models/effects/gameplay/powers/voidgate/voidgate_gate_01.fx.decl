@@ -1,0 +1,187 @@
+{
+	edit = {
+		m_groups = {
+			num = 1;
+			item[0] = {
+				m_timings = {
+					m_duration = {
+						m_max = 0;
+						m_min = 0;
+					}
+				}
+				m_particleSystems = {
+					num = 1;
+					item[0] = {
+						m_decls = {
+							num = 1;
+							item[0] = "models/effects/gameplay/powers/voidgate/voidgate_gate_01.particledt";
+						}
+						m_waitSystemEnd = false;
+						m_timings = {
+							m_looping = true;
+							m_fadein = {
+								m_max = 0.15;
+								m_min = 0.15;
+							}
+							m_duration = {
+								m_max = 5;
+								m_min = 5;
+							}
+							m_fadeout = {
+								m_max = 0.5;
+								m_min = 0.5;
+							}
+						}
+						m_color = {
+							m_fadeinCurve = {
+								m_maxCurve = {
+									m_times = {
+										num = 2;
+										item[1] = 1;
+									}
+									m_values = {
+										num = 6;
+										item[1] = {
+											x = 0;
+											y = 0;
+											z = 0;
+										}
+										item[3] = {
+											x = 0;
+											y = 0;
+											z = 0;
+										}
+										item[4] = {
+											x = 1;
+											y = 1;
+											z = 1;
+										}
+										item[5] = {
+											x = 0;
+											y = 0;
+											z = 0;
+										}
+									}
+								}
+							}
+						}
+						m_alpha = {
+							m_fadeinCurve = {
+								m_maxCurve = {
+									m_times = {
+										num = 2;
+										item[1] = 1.000267148;
+									}
+									m_values = {
+										num = 6;
+										item[1] = 0.000001;
+										item[3] = 0;
+										item[4] = 1;
+										item[5] = 0;
+									}
+								}
+							}
+						}
+					}
+				}
+				m_lights = {
+					num = 1;
+					item[0] = {
+						m_preset = "LIGHT_PRESET_40W";
+						m_timings = {
+							m_looping = true;
+							m_fadein = {
+								m_max = 0.15;
+								m_min = 0.15;
+							}
+							m_duration = {
+								m_max = 4;
+								m_min = 4;
+							}
+							m_fadeout = {
+								m_max = 2;
+								m_min = 2;
+							}
+						}
+						m_attenuation = {
+							m_decay = {
+								m_max = 0.200000003;
+								m_min = 0.200000003;
+							}
+							m_fallOffDistance = {
+								m_max = 1;
+								m_min = 1;
+							}
+						}
+						m_position = {
+							m_offset = {
+								m_max = {
+									x = 0.5;
+								}
+								m_min = {
+									x = 0.5;
+								}
+								m_durationCurve = {
+									m_maxCurve = {
+										m_times = {
+											num = 2;
+											item[0] = 0.0009030998;
+											item[1] = 0.6769468784;
+										}
+										m_values = {
+											num = 6;
+											item[0] = {
+												y = -0.3055385947;
+												z = -0.0938717276;
+											}
+											item[1] = {
+												y = 0;
+											}
+											item[2] = {
+												y = 0.3055385947;
+												z = 0.0938717276;
+											}
+											item[3] = {
+												x = 0;
+												y = -0.2971526682;
+												z = -0.1091190353;
+											}
+											item[4] = {
+												x = 1;
+												y = 1;
+												z = 1.3116688728;
+											}
+											item[5] = {
+												x = 0;
+												y = 0.2971526682;
+												z = 0.1091190353;
+											}
+										}
+									}
+								}
+							}
+						}
+						m_color = {
+							m_baseColor = {
+								r = 0.3882350028;
+								g = 0.5686269999;
+								b = 0.6470590234;
+							}
+						}
+					}
+				}
+				m_sounds = {
+					num = 1;
+					item[0] = {
+						m_startSoundEvent = {
+							m_soundEvent = "sound_events/bsp/bsp_fixint/bsp_fixint_void/void_portal_start";
+						}
+						m_stopSoundEvent = {
+							m_soundEvent = "sound_events/bsp/bsp_fixint/bsp_fixint_void/void_portal_end";
+						}
+					}
+				}
+			}
+		}
+	}
+}

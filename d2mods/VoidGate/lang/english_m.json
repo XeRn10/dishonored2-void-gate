@@ -1,0 +1,16 @@
+{
+  "Power_voidgate_name": "Void Gate",
+  "Power_voidgate_desc": "Open two linked rifts into the Void. Step into one to emerge from the other.",
+  "Power_strategy_voidgate_desc": "<p>Each use opens a rift on the surface you look at: first the entrance, then the exit. A new rift replaces the oldest one. Tap the interact key to close both.</p><br><p>You keep your speed and direction through a rift: fall into a rift in the floor to fly out of a rift in a wall. If a rift strands you far below its exit, the interact key also brings you back to where you entered.</p>",
+  "Upgrade_power_voidgate_far_name": "Far Rift",
+  "Upgrade_power_voidgate_far_desc": "Rifts can be opened twice as far away.",
+  "Power_strategy_voidgate_far_desc": "Doubles the distance at which you can open a rift.",
+  "Upgrade_power_voidgate_through_name": "Through the Void",
+  "Upgrade_power_voidgate_through_desc": "People, bodies and thrown objects pass through rifts.",
+  "Power_strategy_voidgate_through_desc": "<p>The Void accepts more than you. Guards, bodies, bottles and grenades pass through rifts and keep their momentum.</p><br><p>Open an exit above a drop and let your pursuers follow you.</p>",
+  "Upgrade_power_voidgate_momentum_name": "Crossfire",
+  "Upgrade_power_voidgate_momentum_desc": "Bolts, bullets and Windblast pass through rifts.",
+  "Power_strategy_voidgate_momentum_desc": "<p>Shoot into one rift to hit whoever stands before the other.</p><br><p>Windblast cast into a rift bursts out of its twin.</p>",
+  "ui_statusinteraction_closevoidgate": "Close the gates",
+  "ui_statusinteraction_cancelfarreach": "Cancel"
+}

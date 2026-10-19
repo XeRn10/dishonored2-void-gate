@@ -1,0 +1,16 @@
+{
+  "Power_voidgate_name": "Portale dell’Oblio",
+  "Power_voidgate_desc": "Apri due varchi collegati nell’Oblio. Entra in uno per uscire dall’altro.",
+  "Power_strategy_voidgate_desc": "<p>Ogni utilizzo apre un varco sulla superficie che stai guardando: prima l’ingresso, poi l’uscita. Un nuovo varco sostituisce il più vecchio. Premi brevemente il tasto di interazione per chiuderli entrambi.</p><br><p>Attraverso un varco mantieni velocità e direzione: cadi in un varco sul pavimento per volare fuori da un varco su una parete. Se un varco ti lascia molto più in basso della sua uscita, il tasto di interazione ti riporta anche al punto d’ingresso.</p>",
+  "Upgrade_power_voidgate_far_name": "Varco Lontano",
+  "Upgrade_power_voidgate_far_desc": "I varchi possono essere aperti al doppio della distanza.",
+  "Power_strategy_voidgate_far_desc": "Raddoppia la distanza a cui puoi aprire un varco.",
+  "Upgrade_power_voidgate_through_name": "Attraverso l’Oblio",
+  "Upgrade_power_voidgate_through_desc": "Persone, corpi e oggetti lanciati passano attraverso i varchi.",
+  "Power_strategy_voidgate_through_desc": "<p>L’Oblio non accoglie solo te. Guardie, corpi, bottiglie e granate passano attraverso i varchi e mantengono il loro slancio.</p><br><p>Apri un’uscita sopra un precipizio e lascia che i tuoi inseguitori ti seguano.</p>",
+  "Upgrade_power_voidgate_momentum_name": "Fuoco Incrociato",
+  "Upgrade_power_voidgate_momentum_desc": "Dardi, proiettili e Ciclone passano attraverso i varchi.",
+  "Power_strategy_voidgate_momentum_desc": "<p>Spara in un varco per colpire chiunque si trovi davanti all’altro.</p><br><p>Un Ciclone lanciato in un varco erompe dal suo gemello.</p>",
+  "ui_statusinteraction_closevoidgate": "Chiudi i portali",
+  "ui_statusinteraction_cancelfarreach": "Annulla"
+}

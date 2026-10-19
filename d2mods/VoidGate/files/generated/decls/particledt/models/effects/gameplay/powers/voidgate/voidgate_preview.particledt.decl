@@ -1,0 +1,213 @@
+{
+	edit = {
+		m_visibility = {
+			m_alwaysSimulate = true;
+			m_worldBoundingBox = {
+				m_max = {
+					x = 3;
+					y = 3;
+					z = 3;
+				}
+				m_min = {
+					x = -3;
+					y = -3;
+					z = -3;
+				}
+			}
+		}
+		m_stages = {
+			num = 2;
+			item[0] = {
+				m_main = {
+					m_name = "vortex_taurus_blue";
+				}
+				m_spawn = {
+					m_rate = {
+						m_max = 12;
+						m_min = 12;
+					}
+					m_life = {
+						m_max = 0.4;
+						m_min = 0.4;
+					}
+					m_initialVelocity = {
+						m_value = {
+							m_max = {
+								z = 0;
+							}
+							m_min = {
+								z = 0;
+							}
+						}
+					}
+				}
+				m_sprites = {
+					num = 0;
+				}
+				m_meshes = {
+					num = 1;
+					item[0] = {
+						m_orientation = {
+							m_mode = "VECTOR_PLANAR";
+							m_primaryAxis = {
+								m_value = {
+									m_max = {
+										x = 1;
+										y = 0;
+										z = 0;
+									}
+									m_min = {
+										x = 1;
+										y = 0;
+										z = 0;
+									}
+								}
+								m_worldspace = false;
+							}
+							m_viewAsOrientationAxis = false;
+							m_secondaryAxis = {
+								m_value = {
+									m_max = {
+										x = 0;
+										y = 0;
+										z = 1;
+									}
+									m_min = {
+										x = 0;
+										y = 0;
+										z = 1;
+									}
+								}
+								m_worldspace = false;
+							}
+						}
+						m_mesh = "models/effects/meshes/torus_1m.lwo";
+						m_material = "models/effects/materials/gameplay/powers/voidgate/voidgate_rim.material";
+						m_spawn = {
+							m_initialSize = {
+								m_max = {
+									x = 2.8;
+									y = 1.7;
+									z = 1;
+								}
+								m_min = {
+									x = 2.8;
+									y = 1.7;
+									z = 1;
+								}
+							}
+						}
+						m_alphaOverLife = {
+							m_curve = {
+								m_maxCurve = {
+									m_times = {
+										num = 2;
+										item[1] = 1;
+									}
+									m_values = {
+										num = 6;
+										item[1] = 1;
+										item[4] = 0.7;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			item[1] = {
+				m_worldspace = false;
+				m_main = {
+					m_name = "gate_edge";
+				}
+				m_spawn = {
+					m_rate = {
+						m_max = 90;
+						m_min = 90;
+					}
+					m_life = {
+						m_max = 0.5;
+						m_min = 0.3;
+					}
+					m_initialVelocity = {
+						m_value = {
+							m_max = {
+								z = 0;
+							}
+							m_min = {
+								z = 0;
+							}
+						}
+					}
+					m_spawnMesh = {
+						m_mesh = "models/effects/map_specific/void_house/rocks/portal/spawn_portal.lwo";
+						m_scale = {
+							m_max = {
+								x = 0.3;
+								y = 0.4597079502433748;
+								z = 0.611353711790393;
+							}
+							m_min = {
+								x = 0.3;
+								y = 0.4597079502433748;
+								z = 0.611353711790393;
+							}
+						}
+					}
+				}
+				m_simulationPrecision = 1.3600000143;
+				m_sprites = {
+					item[0] = {
+						m_material = "models/effects/materials/gameplay/powers/voidgate/voidgate_spark.material";
+						m_spawn = {
+							m_initialAlpha = {
+								m_curve = {
+									m_maxCurve = {
+										m_times = {
+											num = 2;
+											item[1] = 0.9984976053;
+										}
+										m_values = {
+											num = 6;
+											item[4] = 1;
+										}
+									}
+								}
+							}
+							m_initialSize = {
+								m_max = {
+									x = 0.045;
+									y = 0.045;
+									z = 0.045;
+								}
+								m_min = {
+									x = 0.025;
+									y = 0.025;
+									z = 0.025;
+								}
+							}
+						}
+						m_alphaOverLife = {
+							m_curve = {
+								m_maxCurve = {
+									m_times = {
+										num = 3;
+										item[1] = 0.1097968817;
+										item[2] = 1;
+									}
+									m_values = {
+										num = 9;
+										item[3] = 0.0955280438;
+										item[4] = 0.99158144;
+										item[5] = -0.7745152712;
+										item[7] = 0;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

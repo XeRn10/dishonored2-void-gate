@@ -1,0 +1,11 @@
+{
+	class = "idEntity";
+	edit = {
+		m_componentDecls = {
+			item_begin = true;
+			item_add["vgFx01"] = {
+				inheritedDecl = "models/powers/voidgate/voidgate_gate.cpntfx";
+			}
+		}
+	}
+}

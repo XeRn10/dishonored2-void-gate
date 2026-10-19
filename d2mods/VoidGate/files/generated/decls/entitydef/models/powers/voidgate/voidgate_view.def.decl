@@ -1,0 +1,11 @@
+{
+	inherit = "entitydef_ref/midnight_animated_parent.def";
+	editorVars {
+		placeable = true;
+	}
+	edit = {
+		renderModelInfo = {
+			model = "models/powers/voidgate/voidgate_view.md6";
+		}
+	}
+}

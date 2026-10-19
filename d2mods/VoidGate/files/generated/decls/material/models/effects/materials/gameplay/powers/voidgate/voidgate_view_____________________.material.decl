@@ -1,0 +1,38 @@
+{	
+state {
+		cull back
+	}
+
+	version	2
+
+	options {
+		hasBumpMap				1
+		hasSpecularMap			0
+		hasGlossMap			1
+		hasMetallicMap			1
+		useSkinning				1
+	}
+
+	mainProgram				rendering/timeTravelPortal
+	
+	tsd/RefractionIOR		0.475
+	tsd/RefractionStrength	{ 0, 0 }
+	tsd/BlurStrength		0
+				
+	diffusemap				models/weapons/timeshift_device/timeshift_device_portal_d.tga
+	bumpmap					models/weapons/timeshift_device/timeshift_device_portal_n.tga
+	glossmap				models/weapons/timeshift_device/timeshift_device_portal_g.tga
+	metallicmap				models/weapons/timeshift_device/timeshift_device_portal_mt.tga
+	tsd/failurenoisemap		models/effects/textures/test/white.tga
+	tsd/GlassMaskMap		models/effects/textures/test/black.tga
+	
+//	tsd/FailFactor				1
+
+	
+	tsd/failurerefractionstrength		{ 0, 0 }
+	tsd/FailureBlurStrength			0
+
+	wardRoughness			{ 0, 1, 0, 0 }
+	metallicminmax		{ 0, 1, 0, 0 }
+	speculartintdielectric		{ 0.0325621, 0.0325621, 0.0323696 }
+}

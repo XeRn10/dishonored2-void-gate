@@ -1,0 +1,35 @@
+{
+	state {
+		blend SRC_ALPHA ONE_MINUS_DST_ALPHA
+		alphaBlend SRC_ALPHA ONE_MINUS_SRC_ALPHA
+		cull none
+	}
+
+	options {
+
+		fx/opt/use_softcontact		1
+		fx/opt/fresnel		1
+		twosidedlighting		1
+	}
+
+	mainProgram			particle/dissolve
+	zPrepassProgram 	particle/dissolve
+
+	fx/opacity			models/effects/gameplay/powers/blink/blink_target_01_m.tga
+
+	opacity_Tilling		{ 1, 1, 0, 0 }
+	opacity_PanningSpeed{ 0, 0, 0, 0 }
+
+	radial_RampPow	{ 1, 0, 0, 0 }
+	color_Adjust	{ 0.01, 0.012, 0.04, 1 }
+	particlefresnelthreshold		0.2
+	particlefresnelstrength		2
+	depth_threshold		{ 0.1, 0.5, 0.5, 0.5 }
+	fx/disto1		ipr_height2normal(ipr_noise_perlin(32, 32, 3, 2), 1)
+	disto1_strength		{ 0.33, 0.1, 0, 0 }
+	disto1_tilling		{ 3, 0.5, 1, 1 }
+	disto1_panningspeed		{ 0, 0.2, 0, 0 }
+	fx/auto_exposure_amount		1
+	fx/lookup_fire		ipr_constantcolor(1, 1, 1, 1)
+	alpha_adjust		{ 0, 0.55, 1, 0 }
+}

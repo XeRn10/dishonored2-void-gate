@@ -1,0 +1,146 @@
+{
+  "name": "Void Gate",
+  "version": "0.1",
+  "author": "DishonoredMod",
+  "new_catalogs": [
+    1
+  ],
+  "entries": {
+    "generated/decls/material/models/effects/map_specific/void_house/rocks/portal/vortex.material.decl": {
+      "copy": true,
+      "type": "material",
+      "name": "models/effects/map_specific/void_house/rocks/portal/vortex.material",
+      "tail": "00000000000000000001"
+    },
+    "generated/decls/material/models/effects/map_specific/void_house/rocks/portal/vortex_blue.material.decl": {
+      "copy": true,
+      "type": "material",
+      "name": "models/effects/map_specific/void_house/rocks/portal/vortex_blue.material",
+      "tail": "00000000000000000001"
+    },
+    "generated/decls/material/models/effects/map_specific/void_house/rocks/portal/vortex_color.material.decl": {
+      "copy": true,
+      "type": "material",
+      "name": "models/effects/map_specific/void_house/rocks/portal/vortex_color.material",
+      "tail": "00000000000000000001"
+    },
+    "generated/decls/soundevent/sound_events/bsp/bsp_fixint/bsp_fixint_void/void_portal_end.decl": {
+      "copy": true,
+      "type": "soundevent",
+      "name": "sound_events/bsp/bsp_fixint/bsp_fixint_void/void_portal_end",
+      "tail": "00000000000000000001"
+    },
+    "generated/decls/soundevent/sound_events/bsp/bsp_fixint/bsp_fixint_void/void_portal_start.decl": {
+      "copy": true,
+      "type": "soundevent",
+      "name": "sound_events/bsp/bsp_fixint/bsp_fixint_void/void_portal_start",
+      "tail": "0000000000000000000d"
+    },
+    "generated/image/models/effects/textures/vector_field/vf_turning_n.bimage7": {
+      "copy": true,
+      "type": "image",
+      "name": "models/effects/textures/vector_field/vf_turning_n.tga",
+      "tail": "00000000000000000001"
+    },
+    "generated/staticparticlemodel/models/effects/map_specific/void_house/meshes/void_rock.pmodel": {
+      "copy": true,
+      "type": "staticParticleModel",
+      "name": "models/effects/map_specific/void_house/meshes/void_rock.lwo",
+      "tail": "00000000000000000001"
+    },
+    "generated/staticparticlemodel/models/effects/map_specific/void_house/rocks/portal/portal_vortex.pmodel": {
+      "copy": true,
+      "type": "staticParticleModel",
+      "name": "models/effects/map_specific/void_house/rocks/portal/portal_vortex.lwo",
+      "tail": "00000000000000000001"
+    },
+    "generated/staticparticlemodel/models/effects/map_specific/void_house/rocks/portal/spawn_portal.pmodel": {
+      "copy": true,
+      "type": "staticParticleModel",
+      "name": "models/effects/map_specific/void_house/rocks/portal/spawn_portal.lwo",
+      "tail": "00000000000000000001"
+    },
+    "generated/staticparticlemodel/models/effects/meshes/torus_1m.pmodel": {
+      "copy": true,
+      "type": "staticParticleModel",
+      "name": "models/effects/meshes/torus_1m.lwo",
+      "tail": "00000000000000000001"
+    },
+    "generated/staticparticlemodel/models/effects/meshes/plane_1m_vfx.pmodel": {
+      "copy": true,
+      "type": "staticParticleModel",
+      "name": "models/effects/meshes/plane_1m_vfx.lwo",
+      "tail": "00000000000000000001"
+    },
+    "generated/basemodel/models/powers/voidgate/voidgate_view.bmd6model": {
+      "type": "baseModel",
+      "name": "models/powers/voidgate/voidgate_view.md6mesh",
+      "tail": "00000000000000000000"
+    },
+    "generated/anim/models/effects/map_specific/dunwall_return_tower/_animations_/portal_idle.edgeanim": {
+      "copy": true,
+      "type": "anim",
+      "name": "models/effects/map_specific/dunwall_return_tower/_animations_/portal_idle.md6anim",
+      "tail": "00000000000000000001"
+    },
+    "generated/anim/models/effects/map_specific/dunwall_return_tower/_animations_/portal_idle_start.edgeanim": {
+      "copy": true,
+      "type": "anim",
+      "name": "models/effects/map_specific/dunwall_return_tower/_animations_/portal_idle_start.md6anim",
+      "tail": "00000000000000000001"
+    },
+    "generated/anim/models/effects/map_specific/dunwall_return_tower/_animations_/portal_in.edgeanim": {
+      "copy": true,
+      "type": "anim",
+      "name": "models/effects/map_specific/dunwall_return_tower/_animations_/portal_in.md6anim",
+      "tail": "00000000000000000001"
+    },
+    "generated/anim/models/effects/map_specific/dunwall_return_tower/_animations_/portal_out.edgeanim": {
+      "copy": true,
+      "type": "anim",
+      "name": "models/effects/map_specific/dunwall_return_tower/_animations_/portal_out.md6anim",
+      "tail": "00000000000000000001"
+    },
+    "generated/basemodel/models/effects/map_specific/dunwall_return_tower/portal.bmd6model": {
+      "copy": true,
+      "type": "baseModel",
+      "name": "models/effects/map_specific/dunwall_return_tower/portal.md6mesh",
+      "tail": "00000000000000000015"
+    },
+    "generated/decls/animbasic/models/effects/map_specific/dunwall_return_tower/portal.animbasic.decl": {
+      "copy": true,
+      "type": "animBasic",
+      "name": "models/effects/map_specific/dunwall_return_tower/portal.animbasic",
+      "tail": "00000000000000000001"
+    },
+    "generated/decls/animset/models/effects/map_specific/dunwall_return_tower/portal.animset.decl": {
+      "copy": true,
+      "type": "animSet",
+      "name": "models/effects/map_specific/dunwall_return_tower/portal.animset",
+      "tail": "00000000000000000001"
+    },
+    "generated/decls/entitydef/models/effects/map_specific/dunwall_return_tower/portal.def.decl": {
+      "copy": true,
+      "type": "entityDef",
+      "name": "models/effects/map_specific/dunwall_return_tower/portal.def",
+      "tail": "00000000000000000001"
+    },
+    "generated/decls/md6def/models/effects/map_specific/dunwall_return_tower/portal.md6.decl": {
+      "copy": true,
+      "type": "md6Def",
+      "name": "models/effects/map_specific/dunwall_return_tower/portal.md6",
+      "tail": "00000000000000000001"
+    },
+    "generated/skeleton/models/effects/map_specific/dunwall_return_tower/portal.edgeskl": {
+      "copy": true,
+      "type": "skeleton",
+      "name": "models/effects/map_specific/dunwall_return_tower/portal.md6skl",
+      "tail": "00000000000000000015"
+    },
+    "generated/basemodel/models/powers/voidgate/voidgate_view_rect.bmd6model": {
+      "type": "baseModel",
+      "name": "models/powers/voidgate/voidgate_view_rect.md6mesh",
+      "tail": "00000000000000000000"
+    }
+  }
+}

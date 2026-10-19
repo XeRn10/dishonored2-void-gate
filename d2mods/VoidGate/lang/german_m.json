@@ -1,0 +1,16 @@
+{
+  "Power_voidgate_name": "Tor ins Nichts",
+  "Power_voidgate_desc": "Öffne zwei verbundene Risse ins Nichts. Betritt den einen, um aus dem anderen herauszukommen.",
+  "Power_strategy_voidgate_desc": "<p>Jeder Einsatz öffnet einen Riss auf der Oberfläche, auf die du blickst: zuerst den Eingang, dann den Ausgang. Ein neuer Riss ersetzt den ältesten. Tippe auf die Interaktionstaste, um beide zu schließen.</p><br><p>Durch einen Riss behältst du Geschwindigkeit und Richtung bei: Fall in einen Riss im Boden, um aus einem Riss in der Wand zu fliegen. Lässt dich ein Riss weit unter seinem Ausgang zurück, bringt dich die Interaktionstaste auch dorthin zurück, wo du hineingegangen bist.</p>",
+  "Upgrade_power_voidgate_far_name": "Ferner Riss",
+  "Upgrade_power_voidgate_far_desc": "Risse können doppelt so weit entfernt geöffnet werden.",
+  "Power_strategy_voidgate_far_desc": "Verdoppelt die Entfernung, in der du einen Riss öffnen kannst.",
+  "Upgrade_power_voidgate_through_name": "Durch das Nichts",
+  "Upgrade_power_voidgate_through_desc": "Menschen, Körper und geworfene Gegenstände gelangen durch die Risse.",
+  "Power_strategy_voidgate_through_desc": "<p>Das Nichts nimmt mehr auf als nur dich. Wachen, Körper, Flaschen und Granaten gelangen durch die Risse und behalten ihren Schwung.</p><br><p>Öffne einen Ausgang über einem Abgrund und lass deine Verfolger dir folgen.</p>",
+  "Upgrade_power_voidgate_momentum_name": "Kreuzfeuer",
+  "Upgrade_power_voidgate_momentum_desc": "Bolzen, Kugeln und Windstoß gelangen durch die Risse.",
+  "Power_strategy_voidgate_momentum_desc": "<p>Schieß in einen Riss, um jeden zu treffen, der vor dem anderen steht.</p><br><p>Ein in einen Riss gewirkter Windstoß bricht aus seinem Zwilling hervor.</p>",
+  "ui_statusinteraction_closevoidgate": "Tore schließen",
+  "ui_statusinteraction_cancelfarreach": "Abbrechen"
+}

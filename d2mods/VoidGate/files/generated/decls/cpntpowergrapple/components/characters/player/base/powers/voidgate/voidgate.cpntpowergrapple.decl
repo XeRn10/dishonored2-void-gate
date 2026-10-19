@@ -1,0 +1,27 @@
+{
+	inherit = "components/characters/player/base/powers/grapple/grapple.cpntpowergrapple";
+	edit = {
+		m_inMidnight = "midnight/gameplay/player/base/powers/voidgate_cast_in.midnightscene";
+		m_inMidnightSlide = "midnight/gameplay/player/base/powers/voidgate_cast_in.midnightscene";
+		m_loopMidnight = "midnight/gameplay/player/base/powers/voidgate_cast_loop.midnightscene";
+		m_loopMidnightSlide = "midnight/gameplay/player/base/powers/voidgate_cast_loop.midnightscene";
+		m_outMidnight = "midnight/gameplay/player/base/powers/voidgate_cast_out.midnightscene";
+		m_outMidnightSlide = "midnight/gameplay/player/base/powers/voidgate_cast_out.midnightscene";
+		m_cancelSoundEvent = "sound_events/bsp/bsp_power/bsp_power_mesmerize/bsp_power_mesmerize_cast_cancel";
+		m_powerId = "ARK_PLAYER_POWER_TIMETRAVEL";
+		m_manaCost = 15;
+		m_canBeUsedBy = "USAGE_BY_CORVO USAGE_BY_EMILY";
+		m_curveBeamFX = "models/effects/gameplay/powers/voidgate/voidgate_none.fx";
+		m_emptyTargetFX = "models/effects/gameplay/powers/voidgate/voidgate_preview.fx";
+		m_worldTargetFX = "models/effects/gameplay/powers/voidgate/voidgate_preview.fx";
+		m_mantleTargetFX = "models/effects/gameplay/powers/voidgate/voidgate_preview.fx";
+		m_npcTargetFX = "models/effects/gameplay/powers/voidgate/voidgate_preview.fx";
+		m_movableTargetFX = "models/effects/gameplay/powers/voidgate/voidgate_preview.fx";
+		m_pickupTargetFX = "models/effects/gameplay/powers/voidgate/voidgate_preview.fx";
+		m_chainTargetFX = "models/effects/gameplay/powers/voidgate/voidgate_preview.fx";
+		m_bloodFlyNestTargetFX = "models/effects/gameplay/powers/voidgate/voidgate_preview.fx";
+		m_pickupImpactFX = "models/effects/gameplay/powers/timetravel/travel/tshift_transition_01.fx";
+		m_dummyEntityDef = "models/powers/voidgate/voidgate_gate.def";
+		m_castBendTimeMinGroundDistance = 100000;
+	}
+}

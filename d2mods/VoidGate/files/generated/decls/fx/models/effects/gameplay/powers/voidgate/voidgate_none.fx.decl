@@ -1,0 +1,15 @@
+{
+	edit = {
+		m_groups = {
+			num = 1;
+			item[0] = {
+				m_timings = {
+					m_duration = {
+						m_max = 0;
+						m_min = 0;
+					}
+				}
+			}
+		}
+	}
+}

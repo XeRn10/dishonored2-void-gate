@@ -1,0 +1,7 @@
+{
+	edit = {
+		m_parameters = {
+			m_fx = "models/effects/gameplay/powers/doppelganger/decoy/blink/dganger_blink_out_01.fx";
+		}
+	}
+}

@@ -1,0 +1,862 @@
+{
+	edit = {
+		m_powers = {
+			num = 12;
+			item[0] = {
+				m_id = "ARK_PLAYER_POWER_SHADOWWALK";
+				m_upgrades = {
+					num = 3;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_SHADOWWALK_RAT_SHADOW";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_SHADOWWALK_ASSASSINATION_1";
+						m_subUpgrades = {
+							num = 1;
+							item[0] = {
+								m_upgradeId = "ARK_POWERUPGRADE_SHADOWWALK_ASSASSINATION_2";
+							}
+						}
+					}
+					item[2] = {
+						m_upgradeId = "ARK_POWERUPGRADE_SHADOWWALK_RUN";
+					}
+				}
+			}
+			item[1] = {
+				m_id = "ARK_PLAYER_POWER_DARK_VISION";
+				m_upgrades = {
+					num = 2;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_DARKVISION_GREATER";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_DARKVISION_PREMONITION";
+					}
+				}
+			}
+			item[2] = {
+				m_id = "ARK_PLAYER_POWER_MESMERIZE";
+				m_upgrades = {
+					num = 2;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_MESMERIZE_THREE";
+						m_subUpgrades = {
+							num = 1;
+							item[0] = {
+								m_upgradeId = "ARK_POWERUPGRADE_MESMERIZE_FOUR";
+							}
+						}
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_MESMERIZE_EXTENDEDDURATION";
+					}
+				}
+			}
+			item[3] = {
+				m_id = "ARK_PLAYER_POWER_BENDTIME";
+				m_upgrades = {
+					num = 3;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_BENDTIME_STOPTIME";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_BENDTIME_RELATIVITY";
+					}
+					item[2] = {
+						m_upgradeId = "ARK_POWERUPGRADE_BENDTIME_EXTENDEDDURATION";
+					}
+				}
+			}
+			item[4] = {
+				m_id = "ARK_PLAYER_POWER_BLINK";
+				m_upgrades = {
+					num = 3;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_BLINK_IMPROVEDDISTANCE";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_BLINK_TRANSVERSALTSLOWTIME";
+					}
+					item[2] = {
+						m_upgradeId = "ARK_POWERUPGRADE_BLINK_ASSAULT";
+					}
+				}
+			}
+			item[5] = {
+				m_id = "ARK_PLAYER_POWER_GRAPPLE";
+				m_upgrades = {
+					num = 2;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_FARREACH_PULL_OBJECTS";
+						m_subUpgrades = {
+							num = 1;
+							item[0] = {
+								m_upgradeId = "ARK_POWERUPGRADE_FARREACH_PULL_ENEMIES";
+							}
+						}
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_FARREACH_DECELERATE";
+					}
+				}
+			}
+			item[6] = {
+				m_id = "ARK_PLAYER_POWER_POSSESSION";
+				m_upgrades = {
+					num = 3;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_POSSESSION_CHAIN_HOST";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_POSSESSION_DECAYEDHARBOR";
+						m_subUpgrades = {
+							num = 1;
+							item[0] = {
+								m_upgradeId = "ARK_POWERUPGRADE_POSSESSION_PARASITE";
+							}
+						}
+					}
+					item[2] = {
+						m_upgradeId = "ARK_POWERUPGRADE_POSSESSION_EXTENDEDDURATION";
+					}
+				}
+			}
+			item[7] = {
+				m_id = "ARK_PLAYER_POWER_WINDBLAST";
+				m_upgrades = {
+					num = 2;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_WINDBLAST_GREATER";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_WINDBLAST_SHOCKWAVE";
+					}
+				}
+			}
+			item[8] = {
+				m_id = "ARK_PLAYER_POWER_DEVOURING_SWARM";
+				m_upgrades = {
+					num = 3;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_DEVOURINGSWARM_GREATER";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_DEVOURINGSWARM_VERMINCOMPANIONS";
+					}
+					item[2] = {
+						m_upgradeId = "ARK_POWERUPGRADE_DEVOURINGSWARM_TWINSWARMS";
+					}
+				}
+			}
+			item[9] = {
+				m_id = "ARK_PLAYER_POWER_DOPPELGANGER";
+				m_upgrades = {
+					num = 3;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_CLONE_BAFFLINGEXIT";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_CLONE_DEADLYSHADOW";
+						m_subUpgrades = {
+							num = 1;
+							item[0] = {
+								m_upgradeId = "ARK_POWERUPGRADE_CLONE_TWIN_SHADE";
+							}
+						}
+					}
+					item[2] = {
+						m_upgradeId = "ARK_POWERUPGRADE_CLONE_SWAPPLACE";
+					}
+				}
+			}
+			item[10] = {
+				m_id = "ARK_PLAYER_POWER_PHANTASMAL_LINK";
+				m_upgrades = {
+					num = 1;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_DOMINO_LINK_THREE";
+						m_subUpgrades = {
+							num = 1;
+							item[0] = {
+								m_upgradeId = "ARK_POWERUPGRADE_DOMINO_LINK_FOUR";
+							}
+						}
+					}
+				}
+			}
+			item[11] = {
+				m_id = "ARK_PLAYER_POWER_TIMETRAVEL";
+				m_upgrades = {
+					num = 3;
+					item[0] = {
+						m_upgradeId = "ARK_POWERUPGRADE_BLINK_BLINKATTACK";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_POWERUPGRADE_FARREACH_PULL_ATTACK";
+					}
+					item[2] = {
+						m_upgradeId = "ARK_POWERUPGRADE_MESMERIZE_ANIMAL";
+					}
+				}
+			}
+		}
+		m_enhancements = {
+			num = 7;
+			item[0] = {
+				m_upgradeId = "ARK_ENHANCEMENT_STRENGTH";
+				m_subUpgrades = {
+					num = 1;
+					item[0] = {
+						m_upgradeId = "ARK_ENHANCEMENT_STRENGTH_GREATER";
+					}
+				}
+			}
+			item[1] = {
+				m_upgradeId = "ARK_ENHANCEMENT_VITALITY_EXTEND_HEALTH";
+				m_subUpgrades = {
+					num = 1;
+					item[0] = {
+						m_upgradeId = "ARK_ENHANCEMENT_VITALITY_IMPROVED_HEALTH_REGEN";
+					}
+				}
+			}
+			item[2] = {
+				m_upgradeId = "ARK_ENHANCEMENT_REFLEXES_DEFLECT_PROJECTILES";
+				m_subUpgrades = {
+					num = 4;
+					item[0] = {
+						m_upgradeId = "ARK_ENHANCEMENT_REFLEXES_SLIDE_SHOOTER";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_ENHANCEMENT_REFLEXES_PERFECT_DEFLECT";
+					}
+					item[2] = {
+						m_upgradeId = "ARK_ENHANCEMENT_REFLEXES_ADEPT_PARRY";
+					}
+					item[3] = {
+						m_upgradeId = "ARK_ENHANCEMENT_REFLEXES_BRISK_EYE";
+					}
+				}
+			}
+			item[3] = {
+				m_upgradeId = "ARK_ENHANCEMENT_AGILITY_DOUBLE_JUMP";
+				m_subUpgrades = {
+					num = 2;
+					item[0] = {
+						m_upgradeId = "ARK_ENHANCEMENT_AGILITY_SPRINT_FASTER";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_ENHANCEMENT_AGILITY_REDUCED_FALL_DAMAGE";
+					}
+				}
+			}
+			item[4] = {
+				m_upgradeId = "ARK_ENHANCEMENT_BLOODTHIRSTY_LETHAL_BLOW";
+				m_subUpgrades = {
+					num = 2;
+					item[0] = {
+						m_upgradeId = "ARK_ENHANCEMENT_BLOODTHIRSTY_ADRENALINE_BURST";
+					}
+					item[1] = {
+						m_upgradeId = "ARK_ENHANCEMENT_BLOODTHIRSTY_GREATER";
+					}
+				}
+			}
+			item[5] = {
+				m_upgradeId = "ARK_ENHANCEMENT_BONECHARMS_CRAFTING_APPRENTICE";
+				m_subUpgrades = {
+					num = 2;
+					item[0] = {
+						m_upgradeId = "ARK_ENHANCEMENT_BONECHARMS_CRAFTING_WITCHCRAFT";
+						m_subUpgrades = {
+							num = 1;
+							item[0] = {
+								m_upgradeId = "ARK_ENHANCEMENT_BONECHARMS_CRAFTING_BLACKMAGIC";
+								m_subUpgrades = {
+									num = 1;
+									item[0] = {
+										m_upgradeId = "ARK_ENHANCEMENT_BONECHARMS_CRAFTING_RUNECRAFTING";
+									}
+								}
+							}
+						}
+					}
+					item[1] = {
+						m_upgradeId = "ARK_ENHANCEMENT_BONECHARMS_CRAFTING_TRAIT_SYNERGY";
+					}
+				}
+			}
+			item[6] = {
+				m_upgradeId = "ARK_ENHANCEMENT_SHADOWKILL";
+				m_subUpgrades = {
+					num = 1;
+					item[0] = {
+						m_upgradeId = "ARK_ENHANCEMENT_SHADOWKILL_GREATER";
+						m_subUpgrades = {
+							num = 1;
+							item[0] = {
+								m_upgradeId = "ARK_ENHANCEMENT_SHADOWKILL_BLOODY_SWARM";
+							}
+						}
+					}
+				}
+			}
+		}
+		m_powerUpgradeItemList = {
+			enumItem[ARK_POWERUPGRADE_BLINK_BLINKATTACK] = {
+				m_item = "components/characters/player/base/attributes/voidgate_far.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_FARREACH_PULL_ATTACK] = {
+				m_item = "components/characters/player/base/attributes/voidgate_through.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_MESMERIZE_ANIMAL] = {
+				m_item = "components/characters/player/base/attributes/voidgate_momentum.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_SHADOWWALK_RUN] = {
+				m_item = "components/characters/player/base/attributes/shadow_walk_run.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_SHADOWWALK_ASSASSINATION_1] = {
+				m_item = "components/characters/player/base/attributes/shadow_walk_second_attack.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_SHADOWWALK_ASSASSINATION_2] = {
+				m_item = "components/characters/player/base/attributes/shadow_walk_third_attack.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_SHADOWWALK_RAT_SHADOW] = {
+				m_item = "components/characters/player/base/attributes/shadow_walk_rat_shadow.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_DARKVISION_GREATER] = {
+				m_item = "components/characters/player/base/attributes/darkvision_greater.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_DARKVISION_PREMONITION] = {
+				m_item = "components/characters/player/base/attributes/darkvision_premonition.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_MESMERIZE_THREE] = {
+				m_item = "components/characters/player/base/attributes/mesmerize_three.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_MESMERIZE_FOUR] = {
+				m_item = "components/characters/player/base/attributes/mesmerize_four.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_MESMERIZE_EXTENDEDDURATION] = {
+				m_item = "components/characters/player/base/attributes/mesmerize_duration.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_MESMERIZE_COMBAT] = {
+				m_item = "components/characters/player/base/attributes/mesmerize_incombat.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_BENDTIME_STOPTIME] = {
+				m_item = "components/characters/player/base/attributes/bendtime_stoptime.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_BENDTIME_EXTENDEDDURATION] = {
+				m_item = "components/characters/player/base/attributes/bendtime_extended_duration.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_BENDTIME_RELATIVITY] = {
+				m_item = "components/characters/player/base/attributes/bendtime_relativity.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_BLINK_IMPROVEDDISTANCE] = {
+				m_item = "components/characters/player/base/attributes/blink_distance.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_BLINK_TRANSVERSALTSLOWTIME] = {
+				m_item = "components/characters/player/base/attributes/blink_bendtime.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_BLINK_ASSAULT] = {
+				m_item = "components/characters/player/base/attributes/blink_assault.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_FARREACH_PULL_OBJECTS] = {
+				m_item = "components/characters/player/base/attributes/grapple_pull_objects.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_FARREACH_PULL_ENEMIES] = {
+				m_item = "components/characters/player/base/attributes/grapple_pull_npcs.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_FARREACH_DECELERATE] = {
+				m_item = "components/characters/player/base/attributes/grapple_greater_far_reach.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_POSSESSION_CHAIN_HOST] = {
+				m_item = "components/characters/player/base/attributes/possession_fast_swap.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_POSSESSION_EXTENDEDDURATION] = {
+				m_item = "components/characters/player/base/attributes/possession_ext_duration.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_POSSESSION_PARASITE] = {
+				m_item = "components/characters/player/base/attributes/possession_parasite.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_POSSESSION_DECAYEDHARBOR] = {
+				m_item = "components/characters/player/base/attributes/possession_decayed_harbor.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_WINDBLAST_GREATER] = {
+				m_item = "components/characters/player/base/attributes/windblast_greater.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_WINDBLAST_SHOCKWAVE] = {
+				m_item = "components/characters/player/base/attributes/windblast_shockwave.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_DEVOURINGSWARM_GREATER] = {
+				m_item = "components/characters/player/base/attributes/devouring_swarm_bigger.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_DEVOURINGSWARM_VERMINCOMPANIONS] = {
+				m_item = "components/characters/player/base/attributes/devouring_swarm_follow_player.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_DEVOURINGSWARM_TWINSWARMS] = {
+				m_item = "components/characters/player/base/attributes/devouring_swarm_double.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_CLONE_BAFFLINGEXIT] = {
+				m_item = "components/characters/player/base/attributes/doppelganger_baffling_shade.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_CLONE_SWAPPLACE] = {
+				m_item = "components/characters/player/base/attributes/doppelganger_transposition.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_CLONE_TWIN_SHADE] = {
+				m_item = "components/characters/player/base/attributes/doppelganger_twinshade.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_CLONE_DEADLYSHADOW] = {
+				m_item = "components/characters/player/base/attributes/doppelganger_deadlyshade.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_DOMINO_LINK_THREE] = {
+				m_item = "components/characters/player/base/attributes/domino_link_3.inventoryitem";
+			}
+			enumItem[ARK_POWERUPGRADE_DOMINO_LINK_FOUR] = {
+				m_item = "components/characters/player/base/attributes/domino_link_4.inventoryitem";
+			}
+		}
+		m_enhancementUpgradeItemList = {
+			enumItem[ARK_ENHANCEMENT_STRENGTH] = {
+				m_item = "components/characters/player/base/attributes/strength_death_throw.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_STRENGTH_GREATER] = {
+				m_item = "components/characters/player/base/attributes/strength_greater.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_VITALITY_EXTEND_HEALTH] = {
+				m_item = "components/characters/player/base/attributes/extended_health.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_VITALITY_IMPROVED_HEALTH_REGEN] = {
+				m_item = "components/characters/player/base/attributes/improved_health_regen.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_REFLEXES_DEFLECT_PROJECTILES] = {
+				m_item = "components/characters/player/base/attributes/projectile_deflection.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_REFLEXES_SLIDE_SHOOTER] = {
+				m_item = "components/characters/player/base/attributes/reflexes_slide_shooter.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_REFLEXES_PERFECT_DEFLECT] = {
+				m_item = "components/characters/player/base/attributes/projectile_perfect_deflection.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_REFLEXES_ADEPT_PARRY] = {
+				m_item = "components/characters/player/base/attributes/adept_parry.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_REFLEXES_BRISK_EYE] = {
+				m_item = "components/characters/player/base/attributes/brisk_eye.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_AGILITY_DOUBLE_JUMP] = {
+				m_item = "components/characters/player/base/attributes/super_jump.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_AGILITY_SPRINT_FASTER] = {
+				m_item = "components/characters/player/base/attributes/improved_sprint.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_AGILITY_REDUCED_FALL_DAMAGE] = {
+				m_item = "components/characters/player/base/attributes/fall_damage_reduction.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_BLOODTHIRSTY_LETHAL_BLOW] = {
+				m_item = "components/characters/player/base/attributes/bloodthirsty.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_BLOODTHIRSTY_ADRENALINE_BURST] = {
+				m_item = "components/characters/player/base/attributes/bloodthirsty_adrenaline_burst.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_BLOODTHIRSTY_GREATER] = {
+				m_item = "components/characters/player/base/attributes/bloodthirsty_greater.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_BONECHARMS_CRAFTING_APPRENTICE] = {
+				m_item = "components/characters/player/base/attributes/bonecharmcrafting_1.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_BONECHARMS_CRAFTING_WITCHCRAFT] = {
+				m_item = "components/characters/player/base/attributes/bonecharmcrafting_2.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_BONECHARMS_CRAFTING_BLACKMAGIC] = {
+				m_item = "components/characters/player/base/attributes/bonecharmcrafting_3.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_BONECHARMS_CRAFTING_RUNECRAFTING] = {
+				m_item = "components/characters/player/base/attributes/bonecharmcrafting_4.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_BONECHARMS_CRAFTING_TRAIT_SYNERGY] = {
+				m_item = "components/characters/player/base/attributes/bonecharmcrafting_trait_synergy.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_BONECHARMS_CRAFTING_TRAIT_MASTERY] = {
+				m_item = "components/characters/player/base/attributes/bonecharmcrafting_trait_mastery.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_SHADOWKILL] = {
+				m_item = "components/characters/player/base/attributes/shadow_kill.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_SHADOWKILL_GREATER] = {
+				m_item = "components/characters/player/base/attributes/shadow_kill_greater.inventoryitem";
+			}
+			enumItem[ARK_ENHANCEMENT_SHADOWKILL_BLOODY_SWARM] = {
+				m_item = "components/characters/player/base/attributes/shadow_kill_bloody_swarm.inventoryitem";
+			}
+		}
+		m_rune = "components/interactive/rune_pickable.inventoryitem";
+		m_equipmentUpgrades = {
+			num = 6;
+			item[0] = {
+				m_name = "Weapon_crossbow";
+				m_description = "Weapon_crossbow_desc";
+				m_summaryDescription = "Weapon_crossbow_desc";
+				m_section = "ARK_UPGRADE_SECTION_CROSSBOW";
+				m_upgradeTree = {
+					m_childUpgrades = {
+						num = 8;
+						item[0] = {
+							m_upgrade = "components/characters/player/base/attributes/crossbow_accuracy_emily.equipmentupgrade";
+							m_cost = 300;
+						}
+						item[1] = {
+							m_upgrade = "components/characters/player/base/attributes/crossbow_range_emily.equipmentupgrade";
+							m_cost = 450;
+						}
+						item[2] = {
+							m_upgrade = "components/characters/player/base/attributes/crossbow_reload_speed_emily.equipmentupgrade";
+							m_cost = 600;
+						}
+						item[3] = {
+							m_upgrade = "components/equipment/ammo/bolt_regular.inventoryitem";
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/crossbow_hard_bolts.equipmentupgrade";
+									m_requiredBluePrint = "models/interactive/valuables/blueprints/crossbow_hardbolt.inventoryitem";
+									m_cost = 300;
+								}
+							}
+						}
+						item[4] = {
+							m_upgrade = "components/equipment/ammo/bolt_tranquilizer.inventoryitem";
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/crossbow_instant_sleep.equipmentupgrade";
+									m_requiredBluePrint = "models/interactive/valuables/blueprints/crossbow_instantsleepdart.inventoryitem";
+									m_cost = 400;
+								}
+							}
+						}
+						item[5] = {
+							m_upgrade = "components/characters/player/base/attributes/crossbow_incendiary_bolts.equipmentupgrade";
+							m_requiredBluePrint = "models/interactive/valuables/blueprints/crossbow_incendiarybolt.inventoryitem";
+							m_cost = 400;
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/crossbow_area_combustion.equipmentupgrade";
+									m_cost = 450;
+								}
+							}
+						}
+						item[6] = {
+							m_upgrade = "components/characters/player/base/attributes/crossbow_burning_venom_darts.equipmentupgrade";
+							m_requiredBluePrint = "models/interactive/valuables/blueprints/crossbow_burningvenomdart.inventoryitem";
+							m_cost = 250;
+						}
+						item[7] = {
+							m_upgrade = "components/characters/player/base/attributes/crossbow_howling_bolts.equipmentupgrade";
+							m_requiredBluePrint = "models/interactive/valuables/blueprints/crossbow_howlingbolt.inventoryitem";
+							m_cost = 250;
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/crossbow_ancient_howl.equipmentupgrade";
+									m_requiredBluePrint = "models/interactive/valuables/blueprints/master_crossbow_ammo.inventoryitem";
+									m_cost = 600;
+									m_alternateUpgrade = "components/characters/player/base/attributes/crossbow_low_frequency_howl.equipmentupgrade";
+									m_isMasterWork = true;
+									m_masterWorkDependency = {
+										num = 1;
+										item[0] = "components/characters/player/base/attributes/crossbow_howling_bolts.equipmentupgrade";
+									}
+								}
+							}
+						}
+					}
+				}
+				m_masterWork = {
+					m_upgrade = "components/characters/player/base/attributes/crossbow_railgun_emily.equipmentupgrade";
+					m_requiredBluePrint = "models/interactive/valuables/blueprints/master_crossbow.inventoryitem";
+					m_cost = 700;
+					m_label = "Pickup_blueprint_master";
+					m_alternateUpgrade = "components/characters/player/base/attributes/crossbow_snipe_emily.equipmentupgrade";
+					m_masterWorkDependency = {
+						num = 3;
+						item[0] = "components/characters/player/base/attributes/crossbow_accuracy_emily.equipmentupgrade";
+						item[1] = "components/characters/player/base/attributes/crossbow_range_emily.equipmentupgrade";
+						item[2] = "components/characters/player/base/attributes/crossbow_reload_speed_emily.equipmentupgrade";
+					}
+				}
+			}
+			item[1] = {
+				m_name = "Weapon_pistol";
+				m_description = "Weapon_pistol_desc";
+				m_summaryDescription = "Weapon_pistol_desc";
+				m_section = "ARK_UPGRADE_SECTION_PISTOL";
+				m_upgradeTree = {
+					m_childUpgrades = {
+						num = 5;
+						item[0] = {
+							m_upgrade = "components/characters/player/base/attributes/gun_reload_speed_1_emily.equipmentupgrade";
+							m_cost = 200;
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/gun_reload_speed_2_emily.equipmentupgrade";
+									m_cost = 400;
+								}
+							}
+						}
+						item[1] = {
+							m_upgrade = "components/characters/player/base/attributes/gun_accuracy_1_emily.equipmentupgrade";
+							m_cost = 300;
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/gun_accuracy_2_emily.equipmentupgrade";
+									m_cost = 600;
+								}
+							}
+						}
+						item[2] = {
+							m_upgrade = "components/characters/player/base/attributes/gun_magazine_1_emily.equipmentupgrade";
+							m_cost = 200;
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/gun_magazine_2_emily.equipmentupgrade";
+									m_cost = 200;
+									m_childUpgrades = {
+										num = 1;
+										item[0] = {
+											m_upgrade = "components/characters/player/base/attributes/gun_magazine_3_emily.equipmentupgrade";
+											m_cost = 200;
+										}
+									}
+								}
+							}
+						}
+						item[3] = {
+							m_upgrade = "components/characters/player/base/attributes/gun_explosive_bullets.equipmentupgrade";
+							m_requiredBluePrint = "models/interactive/valuables/blueprints/pistol_explosivebullets.inventoryitem";
+							m_cost = 450;
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/gun_explosive_clusters.equipmentupgrade";
+									m_cost = 450;
+								}
+							}
+						}
+						item[4] = {
+							m_upgrade = "components/equipment/ammo/bullet.inventoryitem";
+							m_childUpgrades = {
+								num = 2;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/gun_electrified_bullets.equipmentupgrade";
+									m_requiredBluePrint = "models/interactive/valuables/blueprints/pistol_magnetizedbullet.inventoryitem";
+									m_cost = 350;
+								}
+								item[1] = {
+									m_upgrade = "components/characters/player/base/attributes/gun_armored_bullets.equipmentupgrade";
+									m_requiredBluePrint = "models/interactive/valuables/blueprints/pistol_armoredshot.inventoryitem";
+									m_cost = 350;
+								}
+							}
+						}
+					}
+				}
+				m_masterWork = {
+					m_upgrade = "components/characters/player/base/attributes/gun_burst_emily.equipmentupgrade";
+					m_requiredBluePrint = "models/interactive/valuables/blueprints/master_pistol.inventoryitem";
+					m_cost = 700;
+					m_label = "Pickup_blueprint_master";
+					m_alternateUpgrade = "components/characters/player/base/attributes/gun_full_auto_emily.equipmentupgrade";
+					m_masterWorkDependency = {
+						num = 7;
+						item[0] = "components/characters/player/base/attributes/gun_reload_speed_2_emily.equipmentupgrade";
+						item[1] = "components/characters/player/base/attributes/gun_accuracy_2_emily.equipmentupgrade";
+						item[2] = "components/characters/player/base/attributes/gun_magazine_3_emily.equipmentupgrade";
+						item[3] = "components/characters/player/base/attributes/gun_accuracy_1_emily.equipmentupgrade";
+						item[4] = "components/characters/player/base/attributes/gun_reload_speed_1_emily.equipmentupgrade";
+						item[5] = "components/characters/player/base/attributes/gun_magazine_2_emily.equipmentupgrade";
+						item[6] = "components/characters/player/base/attributes/gun_magazine_1_emily.equipmentupgrade";
+					}
+				}
+			}
+			item[2] = {
+				m_name = "Gadget_gear_outfit";
+				m_description = "Gadget_gear_outfit_desc";
+				m_summaryDescription = "Gadget_gear_outfit_desc";
+				m_section = "ARK_UPGRADE_SECTION_GEAR_AND_OUTFIT";
+				m_upgradeTree = {
+					m_childUpgrades = {
+						num = 6;
+						item[0] = {
+							m_upgrade = "components/characters/player/base/attributes/spyglass_extra_zoom_level_emily.inventoryitem";
+							m_cost = 200;
+						}
+						item[1] = {
+							m_upgrade = "components/characters/player/base/attributes/bonecharm_slots_1.inventoryitem";
+							m_cost = 300;
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/bonecharm_slots_2.inventoryitem";
+									m_cost = 450;
+								}
+							}
+						}
+						item[2] = {
+							m_upgrade = "components/characters/player/base/attributes/springrazor_storage.equipmentupgrade";
+							m_cost = 450;
+						}
+						item[3] = {
+							m_upgrade = "components/characters/player/base/attributes/crossbow_bolt_storage_1.equipmentupgrade";
+							m_cost = 300;
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/crossbow_bolt_storage_2.equipmentupgrade";
+									m_cost = 450;
+								}
+							}
+						}
+						item[4] = {
+							m_upgrade = "components/characters/player/base/attributes/gun_bullet_storage_1.equipmentupgrade";
+							m_cost = 350;
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/gun_bullet_storage_2.equipmentupgrade";
+									m_cost = 450;
+								}
+							}
+						}
+						item[5] = {
+							m_upgrade = "components/characters/player/base/attributes/silent_running_emily.inventoryitem";
+							m_requiredBluePrint = "models/interactive/valuables/blueprints/boots_silentrunning.inventoryitem";
+							m_cost = 400;
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/silent_sprinting.inventoryitem";
+									m_cost = 500;
+								}
+							}
+						}
+					}
+				}
+				m_masterWork = {
+					m_upgrade = "components/characters/player/base/attributes/armor_emily.inventoryitem";
+					m_requiredBluePrint = "models/interactive/valuables/blueprints/master_armor.inventoryitem";
+					m_cost = 700;
+					m_alternateUpgrade = "components/characters/player/base/attributes/camouflage_emily.inventoryitem";
+				}
+			}
+			item[3] = {
+				m_name = "Weapon_sword";
+				m_description = "Weapon_sword_desc";
+				m_summaryDescription = "Weapon_sword_desc";
+				m_section = "ARK_UPGRADE_SECTION_SWORD";
+				m_upgradeTree = {
+					m_childUpgrades = {
+						num = 1;
+						item[0] = {
+							m_upgrade = "components/characters/player/base/attributes/sword_crossing.equipmentupgrade";
+							m_cost = 450;
+						}
+					}
+				}
+				m_masterWork = {
+					m_upgrade = "components/characters/player/base/attributes/sword_grinding_blade.equipmentupgrade";
+					m_requiredBluePrint = "models/interactive/valuables/blueprints/master_sword.inventoryitem";
+					m_cost = 450;
+					m_label = "Pickup_blueprint_master";
+					m_alternateUpgrade = "components/characters/player/base/attributes/sword_whale_bone_blade.equipmentupgrade";
+				}
+			}
+			item[4] = {
+				m_name = "Gadget_grenade_regular";
+				m_description = "Gadget_grenade_regular_desc";
+				m_summaryDescription = "Gadget_grenade_regular_desc";
+				m_section = "ARK_UPGRADE_SECTION_GRENADE";
+				m_upgradeTree = {
+					m_childUpgrades = {
+						num = 2;
+						item[0] = {
+							m_upgrade = "components/equipment/gadgets/regular_grenade.inventoryitem";
+							m_childUpgrades = {
+								num = 1;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/grenade_impact.equipmentupgrade";
+									m_requiredBluePrint = "models/interactive/valuables/blueprints/grenade_impactgrenade.inventoryitem";
+									m_cost = 400;
+								}
+							}
+						}
+						item[1] = {
+							m_upgrade = "components/characters/player/base/attributes/grenade_sticky.equipmentupgrade";
+							m_requiredBluePrint = "models/interactive/valuables/blueprints/grenade_stickygrenade.inventoryitem";
+							m_cost = 450;
+						}
+					}
+				}
+				m_masterWork = {
+					m_upgrade = "components/characters/player/base/attributes/grenade_max_radius.equipmentupgrade";
+					m_requiredBluePrint = "models/interactive/valuables/blueprints/master_grenade.inventoryitem";
+					m_cost = 700;
+					m_label = "Pickup_blueprint_master";
+					m_alternateUpgrade = "components/characters/player/base/attributes/grenade_muffled.equipmentupgrade";
+				}
+			}
+			item[5] = {
+				m_name = "Weapon_mine";
+				m_description = "Weapon_mine_desc";
+				m_summaryDescription = "Weapon_mine_desc";
+				m_section = "ARK_UPGRADE_SECTION_MINES";
+				m_upgradeTree = {
+					m_childUpgrades = {
+						num = 2;
+						item[0] = {
+							m_upgrade = "components/equipment/gadgets/stun_mine.inventoryitem";
+							m_childUpgrades = {
+								num = 2;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/stun_mine_chain_lightning.equipmentupgrade";
+									m_requiredBluePrint = "models/interactive/valuables/blueprints/stunmine_chainlightning.inventoryitem";
+									m_cost = 450;
+								}
+								item[1] = {
+									m_upgrade = "components/characters/player/base/attributes/stun_mine_charge_1.equipmentupgrade";
+									m_cost = 300;
+									m_childUpgrades = {
+										num = 1;
+										item[0] = {
+											m_upgrade = "components/characters/player/base/attributes/stun_mine_charge_2.equipmentupgrade";
+											m_cost = 300;
+										}
+									}
+								}
+							}
+						}
+						item[1] = {
+							m_upgrade = "components/equipment/gadgets/springrazor.inventoryitem";
+							m_childUpgrades = {
+								num = 2;
+								item[0] = {
+									m_upgrade = "components/characters/player/base/attributes/springrazor_double_slice.equipmentupgrade";
+									m_requiredBluePrint = "models/interactive/valuables/blueprints/springrazor_doubleslice.inventoryitem";
+									m_cost = 450;
+								}
+								item[1] = {
+									m_upgrade = "components/characters/player/base/attributes/springrazor_max_radius.equipmentupgrade";
+									m_cost = 300;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

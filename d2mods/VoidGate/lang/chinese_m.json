@@ -1,0 +1,16 @@
+{
+  "Power_voidgate_name": "虛空之門",
+  "Power_voidgate_desc": "開啟兩道相連的虛空裂隙。踏入其中一道，便會從另一道走出。",
+  "Power_strategy_voidgate_desc": "<p>每次施展都會在你注視的表面上開啟一道裂隙：先是入口，然後是出口。新的裂隙會取代最舊的一道。輕按互動鍵即可關閉兩道裂隙。</p><br><p>穿過裂隙時，你會保持原本的速度和方向：跳進地面上的裂隙，就能從牆上的裂隙飛出。如果裂隙讓你落到出口下方很遠的地方，按下互動鍵也能讓你回到進入的位置。</p>",
+  "Upgrade_power_voidgate_far_name": "遠距裂隙",
+  "Upgrade_power_voidgate_far_desc": "可在兩倍遠的距離開啟裂隙。",
+  "Power_strategy_voidgate_far_desc": "開啟裂隙的距離加倍。",
+  "Upgrade_power_voidgate_through_name": "穿越虛空",
+  "Upgrade_power_voidgate_through_desc": "人、屍體和投擲出的物品都能穿過裂隙。",
+  "Power_strategy_voidgate_through_desc": "<p>虛空接納的不只是你。守衛、屍體、瓶罐和手榴彈都能穿過裂隙，並保持原本的衝力。</p><br><p>在懸崖上方開啟出口，讓追兵跟著你過去吧。</p>",
+  "Upgrade_power_voidgate_momentum_name": "交錯火力",
+  "Upgrade_power_voidgate_momentum_desc": "十字弓箭、子彈和爆破颶風都能穿過裂隙。",
+  "Power_strategy_voidgate_momentum_desc": "<p>朝一道裂隙射擊，就能命中站在另一道裂隙前的人。</p><br><p>朝裂隙施展的爆破颶風會從另一道裂隙噴湧而出。</p>",
+  "ui_statusinteraction_closevoidgate": "關閉虛空之門",
+  "ui_statusinteraction_cancelfarreach": "取消"
+}

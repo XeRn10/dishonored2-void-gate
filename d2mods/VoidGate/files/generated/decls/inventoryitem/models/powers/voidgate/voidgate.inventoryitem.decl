@@ -1,0 +1,13 @@
+{
+	edit = {
+		m_type = "TYPE_POWER";
+		m_name = "Power_voidgate_name";
+		m_description = "Power_voidgate_desc";
+		m_strategicTips = "Power_strategy_voidgate_desc";
+		m_equipment = "models/powers/voidgate/voidgate.def";
+		m_uiIndex = "ARK_HUD_ELEMENT_ITEM_TIMESHIFT_DEVICE";
+		m_journalImage = "models/guis/journal_powers/j_pwr_voidgate_is.png";
+		m_journalHeaderImage = "models/guis/journal_powers/emily_header_p_voidgate_is.png";
+		m_runeCost = 4;
+	}
+}

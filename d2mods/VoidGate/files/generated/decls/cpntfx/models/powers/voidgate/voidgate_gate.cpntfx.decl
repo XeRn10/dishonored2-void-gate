@@ -1,0 +1,10 @@
+{
+	edit = {
+		m_parameters = {
+			m_fx = "models/effects/gameplay/powers/voidgate/voidgate_gate_01.fx";
+			m_updatePosition = true;
+			m_stopOnParentRemoval = true;
+			m_stopOnTargetRemoval = true;
+		}
+	}
+}

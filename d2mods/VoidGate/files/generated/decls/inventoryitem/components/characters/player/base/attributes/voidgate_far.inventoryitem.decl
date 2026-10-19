@@ -1,0 +1,10 @@
+{
+	edit = {
+		m_type = "TYPE_POWER_UPGRADE";
+		m_name = "Upgrade_power_voidgate_far_name";
+		m_description = "Upgrade_power_voidgate_far_desc";
+		m_strategicTips = "Power_strategy_voidgate_far_desc";
+		m_journalImage = "models/guis/journal_powers/j_pwr_voidgate_far_is.png";
+		m_runeCost = 2;
+	}
+}

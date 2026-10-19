@@ -1,0 +1,16 @@
+{
+  "Power_voidgate_name": "Porte du Grand Vide",
+  "Power_voidgate_desc": "Ouvrez deux failles liées vers le Grand Vide. Entrez dans l’une pour ressortir par l’autre.",
+  "Power_strategy_voidgate_desc": "<p>Chaque utilisation ouvre une faille sur la surface que vous regardez : d’abord l’entrée, puis la sortie. Une nouvelle faille remplace la plus ancienne. Appuyez brièvement sur la touche d’interaction pour refermer les deux.</p><br><p>Vous conservez votre vitesse et votre direction en traversant une faille : tombez dans une faille au sol pour jaillir d’une faille murale. Si une faille vous laisse loin en contrebas de sa sortie, la touche d’interaction vous ramène aussi à votre point d’entrée.</p>",
+  "Upgrade_power_voidgate_far_name": "Faille lointaine",
+  "Upgrade_power_voidgate_far_desc": "Les failles peuvent être ouvertes deux fois plus loin.",
+  "Power_strategy_voidgate_far_desc": "Double la distance à laquelle vous pouvez ouvrir une faille.",
+  "Upgrade_power_voidgate_through_name": "À travers le Grand Vide",
+  "Upgrade_power_voidgate_through_desc": "Les personnes, les corps et les objets lancés traversent les failles.",
+  "Power_strategy_voidgate_through_desc": "<p>Le Grand Vide n’accueille pas que vous. Gardes, corps, bouteilles et grenades traversent les failles en conservant leur élan.</p><br><p>Ouvrez une sortie au-dessus d’un précipice et laissez vos poursuivants vous suivre.</p>",
+  "Upgrade_power_voidgate_momentum_name": "Feux croisés",
+  "Upgrade_power_voidgate_momentum_desc": "Les carreaux, les balles et Rafale traversent les failles.",
+  "Power_strategy_voidgate_momentum_desc": "<p>Tirez dans une faille pour toucher quiconque se tient devant l’autre.</p><br><p>Une Rafale lancée dans une faille jaillit de sa jumelle.</p>",
+  "ui_statusinteraction_closevoidgate": "Fermer les portes",
+  "ui_statusinteraction_cancelfarreach": "Annuler"
+}

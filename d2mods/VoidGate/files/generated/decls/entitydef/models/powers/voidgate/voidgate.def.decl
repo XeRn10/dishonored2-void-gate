@@ -1,0 +1,47 @@
+{
+	class = "idEntity";
+	editorVars {
+		rotatable = false;
+		showOrientation = false;
+		showFixedBox = false;
+		isIcon = false;
+		npcToSpawner = false;
+		showInRenderMode = false;
+		placeable = true;
+		placeableInLayers = false;
+		color = ( 1, 1, 1, 1 );
+		size = ( 0m, 0m, 0m );
+		originOffset = ( 0m, 0m, 0m );
+		material = "";
+		toolEditorModel = "";
+		animName = "";
+		animFrame = 0;
+		editorName = "";
+		editorConvertName = "";
+		showToolEditorModelOnlyIfSelected = false;
+		lockInherit = false;
+		deprecated= false;
+		strippedForGame= false;
+	}
+	edit = {
+		renderModelInfo = {
+			model = "models/weapons/shadowgrapple/shadowgrapple.md6";
+			m_castShadows = false;
+		}
+		m_componentDecls = {
+			item_begin = true;
+			item_add["vgPwr1"] = {
+				inheritedDecl = "components/characters/player/base/powers/voidgate/voidgate.cpntpowergrapple";
+			}
+			item_add["Dg-Ar1"] = {
+				inheritedDecl = "components/equipment/animevolved_equipment.cpntanimevolved";
+			}
+			item_add["GcP481"] = {
+				inheritedDecl = "components/base/midnightproxy_default.cpntmidnightproxy";
+			}
+			item_add["-uaER0"] = {
+				inheritedDecl = "models/powers/grapple/aiattentionsource_grapple.cpntaiattentionsource";
+			}
+		}
+	}
+}

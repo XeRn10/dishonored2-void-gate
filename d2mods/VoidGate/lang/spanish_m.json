@@ -1,0 +1,16 @@
+{
+  "Power_voidgate_name": "Puerta del Vacío",
+  "Power_voidgate_desc": "Abre dos grietas enlazadas hacia el Vacío. Entra en una para salir por la otra.",
+  "Power_strategy_voidgate_desc": "<p>Cada uso abre una grieta en la superficie que miras: primero la entrada y luego la salida. Una nueva grieta sustituye a la más antigua. Pulsa brevemente la tecla de interacción para cerrar ambas.</p><br><p>Al cruzar una grieta conservas tu velocidad y dirección: cae en una grieta del suelo para salir volando por una grieta de la pared. Si una grieta te deja muy por debajo de su salida, la tecla de interacción también te devuelve al lugar por el que entraste.</p>",
+  "Upgrade_power_voidgate_far_name": "Grieta lejana",
+  "Upgrade_power_voidgate_far_desc": "Las grietas pueden abrirse al doble de distancia.",
+  "Power_strategy_voidgate_far_desc": "Duplica la distancia a la que puedes abrir una grieta.",
+  "Upgrade_power_voidgate_through_name": "A través del Vacío",
+  "Upgrade_power_voidgate_through_desc": "Las personas, los cuerpos y los objetos lanzados atraviesan las grietas.",
+  "Power_strategy_voidgate_through_desc": "<p>El Vacío no solo te acepta a ti. Guardas, cuerpos, botellas y granadas atraviesan las grietas y conservan su impulso.</p><br><p>Abre una salida sobre un precipicio y deja que tus perseguidores te sigan.</p>",
+  "Upgrade_power_voidgate_momentum_name": "Fuego cruzado",
+  "Upgrade_power_voidgate_momentum_desc": "Los virotes, las balas y Ráfaga atraviesan las grietas.",
+  "Power_strategy_voidgate_momentum_desc": "<p>Dispara a una grieta para alcanzar a quien esté delante de la otra.</p><br><p>Una Ráfaga lanzada hacia una grieta sale con fuerza por su gemela.</p>",
+  "ui_statusinteraction_closevoidgate": "Cerrar las puertas",
+  "ui_statusinteraction_cancelfarreach": "Cancelar"
+}

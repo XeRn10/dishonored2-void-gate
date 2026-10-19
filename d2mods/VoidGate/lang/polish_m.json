@@ -1,0 +1,16 @@
+{
+  "Power_voidgate_name": "Wrota Pustki",
+  "Power_voidgate_desc": "Otwierasz dwie połączone szczeliny do Pustki. Wejdź w jedną, by wyjść z drugiej.",
+  "Power_strategy_voidgate_desc": "<p>Każde użycie otwiera szczelinę na powierzchni, na którą patrzysz: najpierw wejście, potem wyjście. Nowa szczelina zastępuje najstarszą. Krótko naciśnij klawisz interakcji, by zamknąć obie.</p><br><p>Przechodząc przez szczelinę, zachowujesz prędkość i kierunek: wpadnij do szczeliny w podłodze, by wylecieć ze szczeliny w ścianie. Jeśli szczelina pozostawi cię daleko poniżej wyjścia, klawisz interakcji przeniesie cię też z powrotem do miejsca wejścia.</p>",
+  "Upgrade_power_voidgate_far_name": "Odległa szczelina",
+  "Upgrade_power_voidgate_far_desc": "Szczeliny można otwierać dwa razy dalej.",
+  "Power_strategy_voidgate_far_desc": "Podwaja odległość, z jakiej możesz otworzyć szczelinę.",
+  "Upgrade_power_voidgate_through_name": "Przez Pustkę",
+  "Upgrade_power_voidgate_through_desc": "Ludzie, ciała i rzucone przedmioty przechodzą przez szczeliny.",
+  "Power_strategy_voidgate_through_desc": "<p>Pustka przyjmuje nie tylko ciebie. Strażnicy, ciała, butelki i granaty przechodzą przez szczeliny, zachowując swój pęd.</p><br><p>Otwórz wyjście nad przepaścią i pozwól, by ścigający podążyli za tobą.</p>",
+  "Upgrade_power_voidgate_momentum_name": "Krzyżowy ogień",
+  "Upgrade_power_voidgate_momentum_desc": "Bełty, kule i podmuch przechodzą przez szczeliny.",
+  "Power_strategy_voidgate_momentum_desc": "<p>Strzel w jedną szczelinę, by trafić każdego, kto stoi przed drugą.</p><br><p>Podmuch rzucony w szczelinę wydobywa się z jej bliźniaczki.</p>",
+  "ui_statusinteraction_closevoidgate": "Zamknij wrota",
+  "ui_statusinteraction_cancelfarreach": "Anuluj"
+}

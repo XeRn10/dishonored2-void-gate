@@ -1,0 +1,16 @@
+{
+  "Power_voidgate_name": "Portal do Vazio",
+  "Power_voidgate_desc": "Abre duas fendas ligadas ao Vazio. Entre em uma para sair pela outra.",
+  "Power_strategy_voidgate_desc": "<p>Cada uso abre uma fenda na superfície para a qual você está olhando: primeiro a entrada, depois a saída. Uma nova fenda substitui a mais antiga. Toque na tecla de interação para fechar as duas.</p><br><p>Você mantém sua velocidade e direção ao atravessar uma fenda: caia em uma fenda no chão para sair voando de uma fenda na parede. Se uma fenda deixar você muito abaixo da saída, a tecla de interação também leva você de volta ao ponto de entrada.</p>",
+  "Upgrade_power_voidgate_far_name": "Fenda Distante",
+  "Upgrade_power_voidgate_far_desc": "As fendas podem ser abertas duas vezes mais longe.",
+  "Power_strategy_voidgate_far_desc": "Dobra a distância na qual você pode abrir uma fenda.",
+  "Upgrade_power_voidgate_through_name": "Através do Vazio",
+  "Upgrade_power_voidgate_through_desc": "Pessoas, cadáveres e objetos arremessados atravessam as fendas.",
+  "Power_strategy_voidgate_through_desc": "<p>O Vazio aceita mais do que você. Guardas, cadáveres, garrafas e granadas atravessam as fendas e mantêm o impulso.</p><br><p>Abra uma saída acima de um precipício e deixe que seus perseguidores sigam você.</p>",
+  "Upgrade_power_voidgate_momentum_name": "Fogo Cruzado",
+  "Upgrade_power_voidgate_momentum_desc": "Virotes, balas e Rajada de Vento atravessam as fendas.",
+  "Power_strategy_voidgate_momentum_desc": "<p>Atire em uma fenda para acertar quem estiver diante da outra.</p><br><p>Uma Rajada de Vento conjurada em uma fenda irrompe pela sua gêmea.</p>",
+  "ui_statusinteraction_closevoidgate": "Fechar os portais",
+  "ui_statusinteraction_cancelfarreach": "Cancelar"
+}

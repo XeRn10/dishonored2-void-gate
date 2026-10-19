@@ -1,0 +1,18 @@
+{
+	init {
+		skeleton "models/effects/map_specific/dunwall_return_tower/portal.md6skl"
+		offset ( 0 0 0 )
+		bounds ( 0 -2.936 0 ) ( 0.004 2.936 3.635 )
+		lod 0 {
+			mesh "models/powers/voidgate/voidgate_view.md6mesh"
+		}
+	}
+	animsets {
+		"models/effects/map_specific/dunwall_return_tower/portal.animset"
+	}
+	faceanimsets {
+	}
+	props {
+	}
+	animBasicDecl "models/effects/map_specific/dunwall_return_tower/portal.animbasic"
+}

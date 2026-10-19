@@ -1,0 +1,660 @@
+{
+	edit = {
+		m_type = "ICT_DEFAULT_ONEITEM";
+		m_items = {
+			item_begin = true;
+			item_add["vgate1"] = {
+				m_item = "models/powers/voidgate/voidgate.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["100000"] = {
+				m_item = "tests/testcoins";
+				m_maxQuantity = 10000;
+			}
+			item_add["A00000"] = {
+				m_item = "components/equipment/ammo/bolt_regular.inventoryitem";
+				m_maxQuantity = 10;
+			}
+			item_add["B00000"] = {
+				m_item = "components/equipment/ammo/bullet.inventoryitem";
+				m_maxQuantity = 10;
+			}
+			item_add["J00000"] = {
+				m_item = "components/equipment/ammo/bolt_tranquilizer.inventoryitem";
+				m_maxQuantity = 5;
+			}
+			item_add["S00000"] = {
+				m_item = "components/interactive/health_potion.inventoryitem";
+				m_maxQuantity = 10;
+			}
+			item_add["T00000"] = {
+				m_item = "components/interactive/mana_potion.inventoryitem";
+				m_maxQuantity = 10;
+			}
+			item_add["U00000"] = {
+				m_item = "components/equipment/ammo/bolt_flashbang.inventoryitem";
+				m_maxQuantity = 5;
+			}
+			item_add["b00000"] = {
+				m_item = "components/interactive/rune_pickable.inventoryitem";
+				m_maxQuantity = 10000;
+			}
+			item_add["c00000"] = {
+				m_item = "components/interactive/rewire_tool_item.inventoryitem";
+				m_maxQuantity = 5;
+			}
+			item_add["d00000"] = {
+				m_item = "components/equipment/gadgets/regular_grenade.inventoryitem";
+				m_maxQuantity = 4;
+			}
+			item_add["e00000"] = {
+				m_item = "components/equipment/gadgets/sticky_grenade.inventoryitem";
+				m_maxQuantity = 4;
+			}
+			item_add["f00000"] = {
+				m_item = "components/equipment/gadgets/springrazor.inventoryitem";
+				m_maxQuantity = 3;
+			}
+			item_add["g00000"] = {
+				m_item = "components/equipment/gadgets/stun_mine.inventoryitem";
+				m_maxQuantity = 3;
+			}
+			item_add["j00000"] = {
+				m_item = "components/equipment/ammo/bullet.inventoryitem";
+				m_maxQuantity = 10;
+			}
+			item_add["k00000"] = {
+				m_item = "components/equipment/ammo/bullet_explosive.inventoryitem";
+				m_maxQuantity = 5;
+			}
+			item_add["G10000"] = {
+				m_item = NULL;
+				m_maxQuantity = 3;
+			}
+			item_add["H10000"] = {
+				m_item = "models/interactive/keys/dtte/dtte_kitchens.inventoryitem";
+				m_maxQuantity = 2;
+			}
+			item_add["P10000"] = {
+				m_item = "components/interactive/inventory_item_generic.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["930000"] = {
+				m_item = "models/interactive/valuables/other/cigaret_case_01.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["A30000"] = {
+				m_item = "models/interactive/valuables/other/clockwork_egg_01.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["B30000"] = {
+				m_item = "models/interactive/valuables/other/deck_prism_01.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["C30000"] = {
+				m_item = "models/interactive/valuables/other/deck_prism_02.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["E30000"] = {
+				m_item = "models/interactive/valuables/other/jewelry_box_01.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["G30000"] = {
+				m_item = NULL;
+				m_maxQuantity = 99;
+			}
+			item_add["H30000"] = {
+				m_item = "models/interactive/valuables/other/snuff_box_02.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["J30000"] = {
+				m_item = "models/interactive/valuables/coins/coin1_lowvalue.inventoryitem";
+				m_maxQuantity = 10000;
+			}
+			item_add["K30000"] = {
+				m_item = "models/interactive/valuables/coins/coin2_midvalue.inventoryitem";
+				m_maxQuantity = 10000;
+			}
+			item_add["L30000"] = {
+				m_item = "models/interactive/valuables/coins/coin3_highvalue.inventoryitem";
+				m_maxQuantity = 10000;
+			}
+			item_add["Q30000"] = {
+				m_item = "components/characters/player/base/attributes/domino_link_3.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["R30000"] = {
+				m_item = "models/interactive/valuables/blueprints/blueprint.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["S30000"] = {
+				m_item = "models/interactive/valuables/blueprints/blueprint_master.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["W30000"] = {
+				m_item = "components/equipment/ammo/bolt_incendiary.inventoryitem";
+				m_maxQuantity = 5;
+			}
+			item_add["a40000"] = {
+				m_item = "components/equipment/ammo/bolt_burning_venom.inventoryitem";
+				m_maxQuantity = 5;
+			}
+			item_add["j30000"] = {
+				m_item = "models/interactive/valuables/coins/pouch.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["k30000"] = {
+				m_item = "components/interactive/outsider_rune_pickable.inventoryitem";
+				m_maxQuantity = 15;
+			}
+			item_add["b40000"] = {
+				m_item = "models/interactive/valuables/map.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["c40000"] = {
+				m_item = "models/characters/inventory/items/thrown_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["d40000"] = {
+				m_item = "models/characters/inventory/items/gs_guard_sword_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["e40000"] = {
+				m_item = "models/characters/common/accessories/male/helmets/gs_helmet/gs_helmet_inventoryitem.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["f40000"] = {
+				m_item = "models/characters/inventory/items/howler_sword_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["g40000"] = {
+				m_item = "models/characters/inventory/items/howler_wristbow_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["h40000"] = {
+				m_item = "models/characters/inventory/items/howler_female_sword_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["i40000"] = {
+				m_item = "models/characters/inventory/items/mech_sword_left_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["j40000"] = {
+				m_item = "models/characters/inventory/items/mech_sword_right_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["k40000"] = {
+				m_item = "models/characters/inventory/items/mech_sword_left_back_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["l40000"] = {
+				m_item = "models/characters/inventory/items/mech_sword_right_back_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["m40000"] = {
+				m_item = "models/characters/inventory/items/mech/armor_back.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["n40000"] = {
+				m_item = "models/characters/inventory/items/mech/armor_head.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["o40000"] = {
+				m_item = "models/characters/inventory/items/mech/armor_left_arm_front.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["p40000"] = {
+				m_item = "models/characters/inventory/items/mech/armor_left_arm_back.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["q40000"] = {
+				m_item = "models/characters/inventory/items/mech/armor_right_arm_front.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["r40000"] = {
+				m_item = "models/characters/inventory/items/mech/armor_right_arm_back.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["s40000"] = {
+				m_item = "models/characters/inventory/items/elite/elite_sword_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["t40000"] = {
+				m_item = "models/characters/inventory/items/elite/elite_gun_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["u40000"] = {
+				m_item = "models/characters/common/accessories/male/helmets/elite_helmet/elite_helmet_inventoryitem.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["v40000"] = {
+				m_item = "models/characters/inventory/items/overseer/overseer_mask.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["w40000"] = {
+				m_item = "models/characters/inventory/items/overseer/overseer_sword.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["x40000"] = {
+				m_item = "models/characters/inventory/items/overseer/overseer_grenade.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["y40000"] = {
+				m_item = "models/characters/inventory/items/overseer/overseer_pistol.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["z40000"] = {
+				m_item = "models/characters/inventory/items/nestkeeper_forearm_left_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["A40000"] = {
+				m_item = "models/characters/inventory/items/nestkeeper_forearm_right_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["B40000"] = {
+				m_item = "models/characters/inventory/items/hound_fang_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["C40000"] = {
+				m_item = "models/characters/inventory/items/witch/witch_shriek.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["D40000"] = {
+				m_item = "models/characters/inventory/items/witch/witch_spike.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["E40000"] = {
+				m_item = "models/characters/inventory/items/grimalex/grimalex_forearm_left_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["F40000"] = {
+				m_item = "models/characters/inventory/items/grimalex/grimalex_forearm_right_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["H40000"] = {
+				m_item = "models/characters/inventory/items/clone_emily_sword_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["nHGDl1"] = {
+				m_item = "models/characters/inventory/items/overseer/overseer_music_box.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["EPzXa2"] = {
+				m_item = "models/characters/inventory/items/hound_fang_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["bEE3_2"] = {
+				m_item = "models/characters/inventory/items/witch/witch_vine.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["Q91HX1"] = {
+				m_item = "models/characters/inventory/items/worker_sword_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["cyZW30"] = {
+				m_item = "models/characters/inventory/items/worker_pipe_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["ONVju0"] = {
+				m_item = "models/characters/inventory/items/mech/armor_front.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["f5VnF2"] = {
+				m_item = "models/characters/inventory/items/mech/armor_left_femur.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["oUKW42"] = {
+				m_item = "models/characters/inventory/items/mech/armor_right_femur.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["RuJTe0"] = {
+				m_item = "elite_sword_item";
+				m_maxQuantity = 0;
+			}
+			item_add["B2cTD3"] = {
+				m_item = "models/characters/inventory/items/mech/armor_right_tibia.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["BREpA3"] = {
+				m_item = NULL;
+				m_maxQuantity = 1;
+			}
+			item_add["99pYp1"] = {
+				m_item = "howler_sword_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["Mh9e-0"] = {
+				m_item = "models/interactive/valuables/coins/goldingot.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["zH25_0"] = {
+				m_item = "models/interactive/valuables/coins/silveringot.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["lQ67_0"] = {
+				m_item = "models/interactive/valuables/coins/silverdustpouch.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["b6jGm3"] = {
+				m_item = "models/interactive/valuables/coins/pouch_large.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["fmOOL2"] = {
+				m_item = "models/interactive/valuables/coins/pouch_small.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["Otu4C1"] = {
+				m_item = "models/interactive/valuables/statue/hound_statue_01.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["jjiUw0"] = {
+				m_item = "models/interactive/valuables/statue/fish_statue_02.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["8Nk8U2"] = {
+				m_item = "models/interactive/valuables/statue/fish_statue_01.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["I1pab2"] = {
+				m_item = "models/interactive/valuables/statue/bloodfly_statue_02.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["RmhZP0"] = {
+				m_item = "models/interactive/valuables/statue/bloodfly_statue_01.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["2K2Zi2"] = {
+				m_item = "models/interactive/valuables/statue/redshark_statue_01.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["3CyDX0"] = {
+				m_item = "models/interactive/valuables/statue/redshark_statue_02.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["tos5w0"] = {
+				m_item = "models/interactive/valuables/statue/whale_statue_01.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["14npk3"] = {
+				m_item = "models/interactive/valuables/statue/whale_statue_02.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["TXMX42"] = {
+				m_item = "models/interactive/valuables/other/snuff_box_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["oDdai1"] = {
+				m_item = "models/interactive/valuables/other/warmedal_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["FcfXO1"] = {
+				m_item = "models/interactive/valuables/other/sextant_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["a1AcT1"] = {
+				m_item = "models/interactive/valuables/other/precious_urn_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["Lb3nR2"] = {
+				m_item = "models/interactive/valuables/other/precious_urn_02.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["8H1In0"] = {
+				m_item = "models/interactive/valuables/other/decorplate_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["aXO_b2"] = {
+				m_item = "models/interactive/valuables/other/pocketwatch_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["jKZth3"] = {
+				m_item = "models/interactive/valuables/other/deck_prism_var_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["iaaVq0"] = {
+				m_item = "models/interactive/valuables/other/cigaret_case_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["ggTfp0"] = {
+				m_item = "models/interactive/valuables/other/bathingsalts.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["rrmhN3"] = {
+				m_item = "models/interactive/valuables/other/beetle.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["fb9Xd1"] = {
+				m_item = "models/interactive/valuables/other/bloodamber.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["PRFuU0"] = {
+				m_item = "models/interactive/valuables/other/fishscales.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["N_zog1"] = {
+				m_item = "models/interactive/valuables/other/bloodamber_small.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["LMouQ1"] = {
+				m_item = "models/interactive/valuables/other/feathers.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["3I92t2"] = {
+				m_item = "models/interactive/valuables/other/tyvianore.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["wyCIM0"] = {
+				m_item = "models/interactive/valuables/other/sphalerite.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["o25-v3"] = {
+				m_item = "models/interactive/valuables/other/ryegrass.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["k1-091"] = {
+				m_item = "models/interactive/valuables/other/pearl_fan.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["R3UaS0"] = {
+				m_item = "models/interactive/valuables/other/whaleoil.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["Fayju0"] = {
+				m_item = "models/interactive/valuables/other/wire.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["wjt6E1"] = {
+				m_item = "models/interactive/valuables/other/cameo_02.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["t9dzI2"] = {
+				m_item = "models/interactive/valuables/other/cameo_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["HEvDo1"] = {
+				m_item = "models/interactive/valuables/other/cigarbox_02.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["22_MQ2"] = {
+				m_item = "models/interactive/valuables/other/cigarbox_01.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["FrQ_b3"] = {
+				m_item = "models/interactive/valuables/other/cigaret_case_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["-RPUL1"] = {
+				m_item = "models/interactive/valuables/other/ivory_scrimshaw.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["4VGhX2"] = {
+				m_item = "models/interactive/valuables/other/clockwork_egg_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["3tQMi1"] = {
+				m_item = "models/interactive/valuables/other/deck_prism_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["jusH50"] = {
+				m_item = "models/interactive/valuables/other/jewelry_box_03.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["zzE5R0"] = {
+				m_item = "models/interactive/valuables/other/jewelry_box_02.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["fuqAY2"] = {
+				m_item = "models/characters/inventory/items/mech/armor_left_tibia.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["kkQBo0"] = {
+				m_item = "models/characters/inventory/items/grimalex/syringe.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["W9N2A0"] = {
+				m_item = "models/interactive/keys/curator/key_cu_archives.inventoryitem";
+				m_maxQuantity = 999;
+			}
+			item_add["2o7vA0"] = {
+				m_item = "models/characters/inventory/items/witch_female_sword_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["OZVbG3"] = {
+				m_item = "models/characters/inventory/items/overseer_sword_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["zlM4e1"] = {
+				m_item = "components/interactive/interactive_level_map.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["nLSpl2"] = {
+				m_item = "models/interactive/valuables/other/whalebone_fragment.inventoryitem";
+				m_maxQuantity = 999;
+			}
+			item_add["hd0mO0"] = {
+				m_item = "models/characters/inventory/items/elite/elite_gun_female_item.inventoryitem";
+				m_maxQuantity = 0;
+			}
+			item_add["msQFA3"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_01.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["RDAkc2"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_02.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["kqruj0"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_03.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["taNJB0"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_04.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["saUFb3"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_05.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["uzr1k1"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_06.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["qh7V32"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_07.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["yuiqB2"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_08.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["gPfKb3"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_09.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["mV1a33"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_10.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["h1Lmt0"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_11.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["bAGq23"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_12.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["Lx7XP1"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_13.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["54K7w3"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_14.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["XPVsy1"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_15.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["JwKW11"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_16.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["Rjcaa0"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_17.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["6fuOp0"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_18.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["kIX100"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_19.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["FTc8f1"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_20.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["CQSdh0"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_21.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["0x3Kb0"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_22.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["Ti6UX1"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_23.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["4DSvh1"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_24.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["gYWin3"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_25.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["KoW233"] = {
+				m_item = "models/interactive/valuables/other/cw/cw_plate_26.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["kas7h2"] = {
+				m_item = "models/campaign/dunwall/escape/imperial_ring.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["9Ugdc3"] = {
+				m_item = "models/campaign/dunwall/escape/imperial_ring_corvo.inventoryitem";
+				m_maxQuantity = 1;
+			}
+			item_add["jjdCb3"] = {
+				m_item = "models/interactive/keys/eotw/key_hypatiaapartment.inventoryitem";
+				m_maxQuantity = 99;
+			}
+			item_add["Stjj82"] = {
+				m_item = "models/weapons/ply_sword/ply_sword_tutorial.inventoryitem";
+				m_maxQuantity = 0;
+			}
+		}
+	}
+}

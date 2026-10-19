@@ -1,0 +1,16 @@
+{
+  "Power_voidgate_name": "ヴォイドゲート",
+  "Power_voidgate_desc": "虚無へと続く2つの裂け目を開く。片方に入ると、もう片方から出てくる",
+  "Power_strategy_voidgate_desc": "<p>使用するたびに、見ている面に裂け目が開く。最初が入口、次が出口になる。新しい裂け目は最も古い裂け目と置き換わる。インタラクトキーを短く押すと両方とも閉じる</p><br><p>裂け目を通り抜けても速度と向きは保たれる。床の裂け目に落ちれば、壁の裂け目から飛び出すことができる。裂け目を抜けて出口のはるか下に取り残された時も、インタラクトキーで入った場所に戻れる</p>",
+  "Upgrade_power_voidgate_far_name": "ファーリフト",
+  "Upgrade_power_voidgate_far_desc": "2倍の距離まで裂け目を開けるようになる",
+  "Power_strategy_voidgate_far_desc": "裂け目を開ける距離が2倍になる",
+  "Upgrade_power_voidgate_through_name": "ヴォイドパッセージ",
+  "Upgrade_power_voidgate_through_desc": "人間、死体、投げた物体も裂け目を通り抜ける",
+  "Power_strategy_voidgate_through_desc": "<p>虚無が受け入れるのは自分だけではない。衛兵、死体、瓶、グレネードも勢いを保ったまま裂け目を通り抜ける</p><br><p>断崖の上に出口を開いて、追っ手を誘い込もう</p>",
+  "Upgrade_power_voidgate_momentum_name": "クロスファイア",
+  "Upgrade_power_voidgate_momentum_desc": "ボルト、弾丸、ウィンドブラストが裂け目を通り抜ける",
+  "Power_strategy_voidgate_momentum_desc": "<p>片方の裂け目に撃ち込めば、もう片方の前に立つ者に命中する</p><br><p>裂け目に向けて放ったウィンドブラストは、もう片方の裂け目から吹き出す</p>",
+  "ui_statusinteraction_closevoidgate": "ゲートを閉じる",
+  "ui_statusinteraction_cancelfarreach": "キャンセル"
+}
