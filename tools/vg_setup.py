@@ -38,8 +38,24 @@ def here():
 PAYLOAD = os.path.join(here(), "payload")
 
 
+def windows_lang():
+    """'ru' on a Russian Windows, else 'en'."""
+    try:
+        return "ru" if ctypes.windll.kernel32.GetUserDefaultUILanguage() & 0x3FF == 0x19 else "en"
+    except Exception:  # noqa: BLE001
+        return "en"
+
+
+LANG = windows_lang()
+SAY = None  # the window's message hook (vg_setup_gui); None = print to the console
+
+
 def say(en, ru=None):
-    print(en if ru is None else f"{en}\n  {ru}")
+    text = ru if LANG == "ru" and ru else en
+    if SAY:
+        SAY(text)
+    else:
+        print(text)
 
 
 # ---------------------------------------------------------------- index files (same format as tools/d2idx.py)
@@ -525,14 +541,22 @@ def uninstall(game, yes=False):
 
 
 def main():
+    global LANG
+    for a in sys.argv[1:]:
+        if a in ("--lang=en", "--lang=ru"):
+            LANG = a[-2:]
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    yes = "--yes" in sys.argv
+    action = args.pop() if args and args[-1] in ("install", "uninstall") else None
+    if action is None and "--console" not in sys.argv:
+        import vg_setup_gui  # the window; the console below is for scripts and tests
+        vg_setup_gui.run(sys.modules[__name__], args[0] if args else None)
+        return
     try:
         ctypes.windll.kernel32.SetConsoleOutputCP(65001)
         sys.stdout.reconfigure(encoding="utf-8")
     except Exception:  # noqa: BLE001
         pass
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    yes = "--yes" in sys.argv
-    action = args.pop() if args and args[-1] in ("install", "uninstall") else None
     if "uninstall" in os.path.basename(sys.argv[0]).lower():  # VoidGate_Uninstall.exe in the game folder
         say(f"{APP} {VERSION}: uninstall", f"Удаление «Врат Бездны» {VERSION}")
         game = os.path.dirname(os.path.abspath(sys.argv[0]))

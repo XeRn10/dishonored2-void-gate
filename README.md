@@ -35,8 +35,7 @@ is bought with runes and sits on the power wheel. It uses the game's own animati
 
 | | |
 |---|---|
-| ![Through the Void](d2mods/VoidGate/art/screens/02_through_the_void.png) | ![Crossfire](d2mods/VoidGate/art/screens/03_crossfire_windblast.png) |
-| ![Closing](d2mods/VoidGate/art/screens/04_closing.png) | ![A high exit](d2mods/VoidGate/art/screens/05_high_exit.png) |
+| ![Crossfire](d2mods/VoidGate/art/screens/03_crossfire_windblast.png) | ![Closing](d2mods/VoidGate/art/screens/04_closing.png) |
 
 ## How to play
 
@@ -55,8 +54,9 @@ You need Dishonored 2 for Windows. The mod was made and tested on the GOG versio
 1. Download `VoidGate-<version>.zip` from Nexus Mods or from
    [GitHub Releases](../../releases) and unzip it anywhere.
 2. Close the game.
-3. Run `VoidGateSetup.exe`. It finds the game folder by itself, or asks for it (the folder with `Dishonored2.exe`).
-4. Choose **1 - Install**.
+3. Run `VoidGateSetup.exe` and press **Next**. The setup finds the game folder by itself; if it does not, choose
+   it with **Browse** (the folder with `Dishonored2.exe`).
+4. Press **Install**.
 5. Start the game, open the journal and buy Void Gate.
 
 The setup adds Void Gate **on top of the mods you already have**. It understands the mod catalogs that Void
@@ -68,7 +68,7 @@ rebuilds the catalogs without Void Gate, and the setup adds it back.
 
 ## Uninstall
 
-Run `VoidGate_Uninstall.exe` in the game folder, or run `VoidGateSetup.exe` and choose **2 - Uninstall**. The game
+Run `VoidGate_Uninstall.exe` in the game folder, or run `VoidGateSetup.exe` and choose **Uninstall**. The game
 folder goes back exactly to how it was before Void Gate. The uninstaller then removes itself.
 
 If you installed other mods after Void Gate, the uninstaller warns you first. Going back to the state before
@@ -162,8 +162,9 @@ the game at install time.
 1. Скачайте `VoidGate-<версия>.zip` с Nexus Mods или из [GitHub Releases](../../releases) и распакуйте куда
    угодно.
 2. Закройте игру.
-3. Запустите `VoidGateSetup.exe`. Он сам найдёт папку игры или спросит её (папка с `Dishonored2.exe`).
-4. Выберите **1 - Установить**.
+3. Запустите `VoidGateSetup.exe` и нажмите **Далее**. Установщик сам найдёт папку игры; если нет, выберите её
+   кнопкой **Обзор** (папка с `Dishonored2.exe`).
+4. Нажмите **Установить**.
 5. Запустите игру и купите Врата Бездны в журнале.
 
 Установщик добавляет Врата **поверх уже установленных модов**, в том числе поставленных через Void Installer. Перед
@@ -173,7 +174,7 @@ the game at install time.
 
 ## Удаление
 
-Запустите `VoidGate_Uninstall.exe` в папке игры или `VoidGateSetup.exe` → **2 - Удалить**. Папка игры станет
+Запустите `VoidGate_Uninstall.exe` в папке игры или `VoidGateSetup.exe` → **Удалить**. Папка игры станет
 точно такой, какой была до установки Врат, после чего деинсталлятор удалит сам себя. Если после Врат вы ставили
 другие моды, деинсталлятор сначала предупредит: возврат к состоянию до Врат уберёт и их, их можно будет поставить
 заново.

@@ -2,8 +2,8 @@
 
   1. native_d2\\build.cmd (dinput8.dll + voidgate.dll), unless --no-native
   2. release/payload: the data mod (mod.json, files/ without the stock copies -- the setup takes those from the
-     player's game --, lang/), bin/*.dll, sig.json (the code checks of native_d2/vg_sig.h, for the setup's build check)
-  3. PyInstaller: tools/vg_setup.py + payload -> one exe
+     player's game --, lang/), bin/*.dll, ui/ (the setup window's pictures), sig.json (the code checks of native_d2/vg_sig.h, for the setup's build check)
+  3. PyInstaller: tools/vg_setup.py (+ vg_setup_gui.py, the window) + payload -> one windowed exe
   4. the zip for Nexus / GitHub releases: the exe + README.txt
 
   py tools\\vg_build.py [--no-native] [--no-exe]
@@ -52,6 +52,9 @@ def payload():
             n += 1
     shutil.copytree(os.path.join(MOD, "lang"), os.path.join(dst, "lang"))
     shutil.copy2(os.path.join(MOD, "mod.json"), dst)
+    ui = os.path.join(PAYLOAD, "ui")  # the setup window: side picture and header icon per screen scale, app icon
+    shutil.copytree(os.path.join(MOD, "art", "setup"), ui)
+    shutil.copy2(os.path.join(MOD, "art", "voidgate.ico"), ui)
     os.makedirs(os.path.join(PAYLOAD, "bin"))
     for fn in ("dinput8.dll", "voidgate.dll"):
         shutil.copy2(os.path.join(NATIVE, fn), os.path.join(PAYLOAD, "bin", fn))
@@ -69,7 +72,7 @@ def main():
     if "--no-exe" in sys.argv:
         return
     work = os.path.join(OUT, "pyi")
-    subprocess.run([sys.executable, "-m", "PyInstaller", "--noconfirm", "--onefile", "--console",
+    subprocess.run([sys.executable, "-m", "PyInstaller", "--noconfirm", "--onefile", "--windowed",
                     "--name", "VoidGateSetup", "--distpath", OUT, "--workpath", work, "--specpath", work,
                     "--add-data", f"{PAYLOAD}{os.pathsep}payload",
                     *(["--icon", os.path.join(MOD, "art", "voidgate.ico")]

@@ -47,6 +47,7 @@
 !/tools/make_voidgate_view.py
 !/tools/vg_build.py
 !/tools/vg_setup.py
+!/tools/vg_setup_gui.py
 !/tools/x64refs.py
 
 /docs/*

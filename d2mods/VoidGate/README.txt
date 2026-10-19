@@ -6,8 +6,9 @@ and come out of the other, keeping your speed and direction.
 
 INSTALL
   1. Close the game.
-  2. Run VoidGateSetup.exe. It finds the game folder by itself or asks for it (the folder with Dishonored2.exe).
-  3. Choose 1 - Install.
+  2. Run VoidGateSetup.exe and press Next. It finds the game folder by itself; if not, choose it with Browse
+     (the folder with Dishonored2.exe).
+  3. Press Install.
   4. In the game: journal -> Powers -> Void Gate (4 runes). Select it on the power wheel.
 
   The setup adds Void Gate on top of the mods you already have (Void Installer mods too). If you install or change
@@ -21,7 +22,7 @@ PLAY
   Crossfire (3 runes, bolts, bullets and Windblast pass).
 
 UNINSTALL
-  Run VoidGate_Uninstall.exe in the game folder (or VoidGateSetup.exe -> 2 - Uninstall). The game folder goes back
+  Run VoidGate_Uninstall.exe in the game folder (or VoidGateSetup.exe -> Uninstall). The game folder goes back
   exactly to how it was before Void Gate. Saves made with Void Gate still load afterwards; the power is just gone.
 
 GAME VERSION
@@ -47,8 +48,9 @@ Unofficial fan mod. Dishonored is a trademark of ZeniMax Media; not affiliated w
 
 УСТАНОВКА
   1. Закройте игру.
-  2. Запустите VoidGateSetup.exe. Он сам найдёт папку игры или спросит её (папка с Dishonored2.exe).
-  3. Выберите 1 - Установить.
+  2. Запустите VoidGateSetup.exe и нажмите «Далее». Он сам найдёт папку игры; если нет, выберите её кнопкой
+     «Обзор» (папка с Dishonored2.exe).
+  3. Нажмите «Установить».
   4. В игре: журнал -> Умения -> Врата Бездны (4 руны). Выберите силу на колесе сил.
 
   Установщик добавляет Врата поверх уже установленных модов (и модов Void Installer). Если позже ставите или
@@ -62,7 +64,7 @@ Unofficial fan mod. Dishonored is a trademark of ZeniMax Media; not affiliated w
   предметы), Перекрёстный огонь (3 руны, проходят болты, пули и Порыв ветра).
 
 УДАЛЕНИЕ
-  Запустите VoidGate_Uninstall.exe в папке игры (или VoidGateSetup.exe -> 2 - Удалить). Папка игры станет точно
+  Запустите VoidGate_Uninstall.exe в папке игры (или VoidGateSetup.exe -> Удалить). Папка игры станет точно
   такой, как до установки Врат. Сохранения с Вратами после этого загружаются, сила из них просто пропадает.
 
 ВЕРСИЯ ИГРЫ

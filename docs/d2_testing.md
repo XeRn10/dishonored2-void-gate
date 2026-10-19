@@ -105,7 +105,12 @@ python tools\vg_build.py             build.cmd + release\payload + release\VoidG
 python tools\vg_build.py --no-exe    only the payload (for the offline setup test)
 ```
 
-`VoidGateSetup.exe [game folder] [install|uninstall] [--yes]` (no arguments: menu). It layers Void Gate on top of
+`VoidGateSetup.exe [game folder] [--lang=en|ru]` opens the setup window (tools/vg_setup_gui.py: Welcome -> Game
+folder -> Installing -> Done; Russian on a Russian Windows, else English; restarts itself elevated via UAC when the
+game folder is not writable, `--go=install|uninstall` then continues where it was). For scripts and tests:
+`python tools\vg_setup.py [game folder] install|uninstall [--yes]` (the console path; the exe has no console).
+Scenario tests of the window on fake game folders: scratch scripts test_gui.py / click_uninstall.py (all pages,
+a real install + uninstall, the uninstaller exe pressing its buttons and deleting itself). It layers Void Gate on top of
 the current `gameN_voidmod` catalogs (other mods are carried over byte for byte), keeps the state before the first
 install in `<game>\base\voidgate_backup` (with the hashes of what it wrote, so a later Void Installer run is
 noticed), copies `dinput8.dll` / `voidgate.dll` and `VoidGate_Uninstall.exe` (a copy of the setup that only
