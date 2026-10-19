@@ -53,7 +53,7 @@ is bought with runes and sits on the power wheel. It uses the game's own animati
 You need Dishonored 2 for Windows. The mod was made and tested on the GOG version 1.77.9.0 (see
 [Compatibility](#compatibility)).
 
-1. Download `VoidGate-<version>.zip` from Nexus Mods or from
+1. Download `VoidGate-<version>.zip` from [Nexus Mods](https://www.nexusmods.com/dishonored2/mods/230) or from
    [GitHub Releases](../../releases) and unzip it anywhere.
 2. Close the game.
 3. Run `VoidGateSetup.exe` and press **Next**. The setup finds the game folder by itself; if it does not, choose
@@ -82,7 +82,7 @@ Void Gate removes those mods too, and you can install them again afterwards.
   patches) have **not been tested**. At every start the mod checks the 66 places of the game's code it uses. If any
   of them differs, the mod turns itself off and shows a message, and the game runs normally without it. The setup
   runs the same check before installing and tells you the result. If your version passes, the mod should work,
-  but nobody has tried it yet. A report on Nexus or GitHub is welcome.
+  but nobody has tried it yet. A report on [Nexus](https://www.nexusmods.com/dishonored2/mods/230) or GitHub is welcome.
 - **Other mods.** Data mods installed with Void Installer keep working. A mod that changes the same game files
   (the power list, the inventory list, the power-wheel texture or the text files) may conflict. Void Gate's changes
   are applied last.
@@ -161,7 +161,7 @@ the game at install time.
 
 ## Установка
 
-1. Скачайте `VoidGate-<версия>.zip` с Nexus Mods или из [GitHub Releases](../../releases) и распакуйте куда
+1. Скачайте `VoidGate-<версия>.zip` с [Nexus Mods](https://www.nexusmods.com/dishonored2/mods/230) или из [GitHub Releases](../../releases) и распакуйте куда
    угодно.
 2. Закройте игру.
 3. Запустите `VoidGateSetup.exe` и нажмите **Далее**. Установщик сам найдёт папку игры; если нет, выберите её
@@ -187,7 +187,7 @@ the game at install time.
   **не проверялись**. При каждом запуске мод сверяет 66 мест кода игры, которые он использует. Если хоть одно
   отличается, мод выключается сам и показывает сообщение, а игра работает как обычно, просто без него. Установщик
   делает ту же проверку перед установкой и сообщает результат. Если ваша версия проходит проверку, мод должен
-  работать, но никто этого ещё не пробовал. Будем рады отчёту на Nexus или GitHub.
+  работать, но никто этого ещё не пробовал. Будем рады отчёту на [Nexus](https://www.nexusmods.com/dishonored2/mods/230) или GitHub.
 - **Другие моды.** Моды, поставленные через Void Installer, продолжают работать. Конфликт возможен с модом, который
   меняет те же файлы: список сил, список предметов, текстуру колеса сил или файлы текстов. Изменения Врат
   применяются последними.
