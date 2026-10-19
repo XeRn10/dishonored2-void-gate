@@ -21,7 +21,7 @@ import subprocess
 import sys
 import zlib
 
-APP, VERSION = "Void Gate", "0.9.0"
+APP, VERSION = "Void Gate", "0.9.1"
 CATALOGS = (1, 2, 3, 4)
 CONTAINERS = ["", "_001", "_002", "_003", "_004", "_005", "_patch", "_voidmod"]
 VOIDMOD = 7

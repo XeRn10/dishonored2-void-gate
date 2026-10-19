@@ -39,6 +39,18 @@ and release — same as the gates), own `voidgate_cast_in/loop/out.midnightscene
 Mesmerize animations are in the shared arm set (`player/base/left_arm.animset`). Whether Corvo's arm is visible and
 the Mesmerize sounds play cannot be checked via screenshots (the arm is not in frame even for Blink) — needs user testing.
 
+2026-10-19, after release 0.9.0 ("the second gate is invisible", "passing through one makes the other invisible";
+user testing on the Dreadful Wale, mission 8, Emily): the gate entity is fine, its FX is not. The log showed
+`started 1 stopped 0, handle FFFFFFFF` within 0.3-0.9 s of the spawn for about half the gates there. Ghidra: arkCpntFX
+update 0x14058E040 starts its FX once (0x14058E120: FX instance per owner entity id 0x1401FEDA0, end listener at
+instance+0x128 = cpntFX+0x20, activation 0x1401FF210) and never again; the listener 0x14058E7F0 sets the handle (+0x4C)
+to -1 when the FX ends. Why the FX system ends it so early (no stop from us, `m_dontSpawnIfCulled` (+0x41) is off) is
+still unknown. Fix in 0.9.1: `gate_fx_watchdog` clears "started" (+0x70) of a live gate whose FX ended on its own, so
+the component starts a new one (at most 8 times per gate, logged "FX ended on its own after N s: restarting it").
+Verified in the user's game: the restarted FX came back (alive 1 a second later) and both gates stayed visible.
+The cpntFX parameter table (0x14255B378): m_location, m_tagName, m_target, m_targetTagName, m_updatePosition,
+m_dontSpawnIfCulled, m_stopOnTargetRemoval, m_stopOnParentRemoval (bools at +0x40..+0x43).
+
 2026-10-19 (pre-release):
 * Own gate aim (`aim_own_update`): a ray from the eyes, 20 m (40 m with "Far Rift"), static world only. Before, the gates
   inherited Far Reach aiming: 15 m / 6.2 m vertically in stock, and 300 / 124 m with NonLethal — hence "gates outside the

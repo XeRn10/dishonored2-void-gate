@@ -1,6 +1,6 @@
 # Void Gate: a Portal-style power for Dishonored 2
 
-![Two rifts](d2mods/VoidGate/art/screens/01_gates.png)
+![Two rifts on a ship](d2mods/VoidGate/art/screens/01_closeup.jpg)
 
 **Void Gate** is a new power for Corvo and Emily: open two linked rifts into the Void on any wall, floor or
 ceiling, step into one and come out of the other. You keep your speed and direction, so you can fall into a rift in
@@ -35,7 +35,9 @@ is bought with runes and sits on the power wheel. It uses the game's own animati
 
 | | |
 |---|---|
-| ![Crossfire](d2mods/VoidGate/art/screens/03_crossfire_windblast.png) | ![Closing](d2mods/VoidGate/art/screens/04_closing.png) |
+| ![A rift in the floor and one in the wall](d2mods/VoidGate/art/screens/02_rooftop.jpg) | ![Two rifts on a boat at sunset](d2mods/VoidGate/art/screens/06_boat.jpg) |
+| ![Two rifts on a street, guards ahead](d2mods/VoidGate/art/screens/04_street.jpg) | ![A rift high on a building](d2mods/VoidGate/art/screens/05_courtyard.jpg) |
+| ![Two rifts on a white wall at dusk](d2mods/VoidGate/art/screens/03_wall_pair.jpg) | |
 
 ## How to play
 

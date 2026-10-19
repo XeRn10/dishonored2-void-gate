@@ -2221,6 +2221,38 @@ static void gate_fx_diag(void)
     }
 }
 
+// A gate's FX can end on its own: a moment after it started (on the Dreadful Wale about every second gate), or when
+// the player comes out of the other gate. The cpntFX's end listener (0x14058E7F0) then sets its FX handle to -1,
+// and its update (0x14058E040) never starts the FX again ("started" +0x70 stays 1): the gate works but is invisible.
+// Watchdog: a live gate whose cpntFX has started, was not stopped (+0x71) and has no FX any more gets "started"
+// cleared, so the component's own update starts its FX again (a new instance with the listener attached). At most
+// 8 restarts per gate entity, each logged with how long the FX had lived.
+static struct {
+    uint32_t ent;
+    DWORD liveSince;
+    int restarts;
+} g_fxWatch[2];
+static void gate_fx_watchdog(void)
+{
+    DWORD now = GetTickCount();
+    for (int i = 0; i < 2; i++) {
+        gate_t *g = &S->gate[i];
+        if (g_fxWatch[i].ent != g->ent)
+            g_fxWatch[i].ent = g->ent, g_fxWatch[i].liveSince = now, g_fxWatch[i].restarts = 0;
+        uintptr_t e = g->valid ? entity_by_id(g->ent) : 0, fc = g->fxComp;
+        if (!e || !fc || !readable(fc + 0x4C, 0x28) || *(uintptr_t *)(fc + 0x10) != e)
+            continue;
+        if (!*(uint8_t *)(fc + 0x70) || *(uint8_t *)(fc + 0x71) || *(uint32_t *)(fc + 0x4C) != ~0u ||
+            g_fxWatch[i].restarts >= 8)
+            continue;
+        g_fxWatch[i].restarts++;
+        vg_log("gate %c FX ended on its own after %.1f s: restarting it (%d)", 'A' + i,
+               (now - g_fxWatch[i].liveSince) / 1000.0f, g_fxWatch[i].restarts);
+        g_fxWatch[i].liveSince = now;
+        *(uint8_t *)(fc + 0x70) = 0;
+    }
+}
+
 // Everything that touches the world, once per frame from the Void Gate component's own update.
 static void game_tick(void)
 {
@@ -2296,6 +2328,7 @@ static void game_tick(void)
     }
     fall_protection(feet);  // (also ends a protection with the gates gone)
     npc_soft_landing();     // (NPCs out of the gates: also after the gates are gone)
+    gate_fx_watchdog();
     gate_fx_diag();
     if (!S->gate[0].valid || !S->gate[1].valid)
         return;
