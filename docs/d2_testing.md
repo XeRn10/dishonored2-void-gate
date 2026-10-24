@@ -101,20 +101,27 @@ name|vt|find ...` answer in well under a second, and several callers can share i
 
 ```
 py tools\make_sig.py                 after changing game addresses in host.c / vg.c: native_d2\vg_sig.h
-python tools\vg_build.py             build.cmd + release\payload + release\VoidGateSetup.exe + release\VoidGate-<ver>.zip
+python tools\vg_build.py             build.cmd + release\payload + native setup + release\VoidGate-<ver>.zip
 python tools\vg_build.py --no-exe    only the payload (for the offline setup test)
 ```
 
-`VoidGateSetup.exe [game folder] [--lang=en|ru]` opens the setup window (tools/vg_setup_gui.py: Welcome -> Game
+Since 0.9.2 the player setup is native (native_d2/setup: core.c = the install logic, ui.c = the window, inflate.c,
+payload packed by tools/vg_payload.py; 0.9.1's PyInstaller exe was flagged by Kaspersky / SentinelOne and quarantined
+on Nexus). Our entries are stored uncompressed (the game reads stored entries; checked in game: decls, FX, the wheel
+texture, the text files). `VoidGateSetup.exe [game folder] [--lang=en|ru]` opens the window (Welcome -> Game
 folder -> Installing -> Done; English by default, Russian by the switch; restarts itself elevated via UAC when the
 game folder is not writable, `--go=install|uninstall` then continues where it was). For scripts and tests:
-`python tools\vg_setup.py [game folder] install|uninstall [--yes]` (the console path; the exe has no console).
-Scenario tests of the window on fake game folders: scratch scripts test_gui.py / click_uninstall.py (all pages,
-a real install + uninstall, the uninstaller exe pressing its buttons and deleting itself). It layers Void Gate on top of
+`native_d2\setup\test_cli.exe <game> install|uninstall|check|changed` (no window) and
+`python tools\vg_setup.py [game folder] install|uninstall [--yes]` (the Python reference, console).
+Tests (scratch scripts): test_native.py runs both setups on fake game folders on D: (the big data files hard-linked
+from the real game, only read) and compares every entry and its data, plus byte-exact uninstalls and
+cross-installs (Python installs / native uninstalls and back); test_native_gui.py drives the window with posted
+Enter keys through install, the Russian page of an installed game, the uninstaller and its pages. It layers Void Gate on top of
 the current `gameN_voidmod` catalogs (other mods are carried over byte for byte), keeps the state before the first
 install in `<game>\base\voidgate_backup` (with the hashes of what it wrote, so a later Void Installer run is
 noticed), copies `dinput8.dll` / `voidgate.dll` and `VoidGate_Uninstall.exe` (a copy of the setup that only
-uninstalls, then deletes itself). The 21 stock resources in mod.json "copy" entries are read from the player's own
+uninstalls; it cannot delete itself while it runs, its last page says it can be deleted -- no self-delete tricks,
+antivirus heuristics dislike them). The 21 stock resources in mod.json "copy" entries are read from the player's own
 game and are not shipped.
 
 Checked on 2026-10-19: an offline test on fake game folders (install over three mods == `d2install` of all four,

@@ -2,11 +2,13 @@
 
   1. native_d2\\build.cmd (dinput8.dll + voidgate.dll), unless --no-native
   2. release/payload: the data mod (mod.json, files/ without the stock copies -- the setup takes those from the
-     player's game --, lang/), bin/*.dll, ui/ (the setup window's pictures), sig.json (the code checks of native_d2/vg_sig.h, for the setup's build check)
-  3. PyInstaller: tools/vg_setup.py (+ vg_setup_gui.py, the window) + payload -> one windowed exe
-  4. the zip for Nexus / GitHub releases: the exe + README.txt
+     player's game --, lang/), bin/*.dll, sig.json (the code checks of native_d2/vg_sig.h). This is what
+     tools/vg_setup.py, the Python reference setup, installs (tests compare the native setup with it).
+  3. the native setup: tools/vg_payload.py packs the same things for C (native_d2/setup/gen), then
+     native_d2\\setup\\build.cmd test builds native_d2/setup/VoidGateSetup.exe (and test_cli.exe)
+  4. the zip for Nexus / GitHub releases: the native exe + README.txt
 
-  py tools\\vg_build.py [--no-native] [--no-exe]
+  python tools\\vg_build.py [--no-native] [--no-exe]
 """
 import json
 import os
@@ -24,6 +26,7 @@ PAYLOAD = os.path.join(OUT, "payload")
 
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 from vg_setup import VERSION  # noqa: E402
+import vg_payload  # noqa: E402
 
 
 def sig_json():
@@ -52,9 +55,6 @@ def payload():
             n += 1
     shutil.copytree(os.path.join(MOD, "lang"), os.path.join(dst, "lang"))
     shutil.copy2(os.path.join(MOD, "mod.json"), dst)
-    ui = os.path.join(PAYLOAD, "ui")  # the setup window: side picture and header icon per screen scale, app icon
-    shutil.copytree(os.path.join(MOD, "art", "setup"), ui)
-    shutil.copy2(os.path.join(MOD, "art", "voidgate.ico"), ui)
     os.makedirs(os.path.join(PAYLOAD, "bin"))
     for fn in ("dinput8.dll", "voidgate.dll"):
         shutil.copy2(os.path.join(NATIVE, fn), os.path.join(PAYLOAD, "bin", fn))
@@ -71,14 +71,10 @@ def main():
     payload()
     if "--no-exe" in sys.argv:
         return
-    work = os.path.join(OUT, "pyi")
-    subprocess.run([sys.executable, "-m", "PyInstaller", "--noconfirm", "--onefile", "--windowed",
-                    "--name", "VoidGateSetup", "--distpath", OUT, "--workpath", work, "--specpath", work,
-                    "--add-data", f"{PAYLOAD}{os.pathsep}payload",
-                    *(["--icon", os.path.join(MOD, "art", "voidgate.ico")]
-                      if os.path.isfile(os.path.join(MOD, "art", "voidgate.ico")) else []),
-                    os.path.join(ROOT, "tools", "vg_setup.py")], check=True)
+    vg_payload.main(VERSION)
+    subprocess.run(["cmd", "/c", os.path.join(NATIVE, "setup", "build.cmd"), "test"], check=True)
     exe = os.path.join(OUT, "VoidGateSetup.exe")
+    shutil.copy2(os.path.join(NATIVE, "setup", "VoidGateSetup.exe"), exe)
     z = os.path.join(OUT, f"VoidGate-{VERSION}.zip")
     with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as f:
         f.write(exe, "VoidGateSetup.exe")

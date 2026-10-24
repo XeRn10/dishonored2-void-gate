@@ -1,4 +1,5 @@
-"""Void Gate setup for players: installs / uninstalls the mod in a Dishonored 2 folder.
+"""Void Gate setup, the Python REFERENCE: installs / uninstalls the mod in a Dishonored 2 folder (console).
+Players get the native setup (native_d2/setup, the same logic in C); tests compare the two.
 
 The data goes into the game's mod catalogs (base/gameN_voidmod.index + .resources, master.index -- the layout Void
 Installer writes too), ON TOP of whatever mods are already there: their index entries and data are carried over, ours
@@ -21,7 +22,7 @@ import subprocess
 import sys
 import zlib
 
-APP, VERSION = "Void Gate", "0.9.1"
+APP, VERSION = "Void Gate", "0.9.2"
 CATALOGS = (1, 2, 3, 4)
 CONTAINERS = ["", "_001", "_002", "_003", "_004", "_005", "_patch", "_voidmod"]
 VOIDMOD = 7
@@ -540,10 +541,6 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     yes = "--yes" in sys.argv
     action = args.pop() if args and args[-1] in ("install", "uninstall") else None
-    if action is None and "--console" not in sys.argv:
-        import vg_setup_gui  # the window; the console below is for scripts and tests
-        vg_setup_gui.run(sys.modules[__name__], args[0] if args else None)
-        return
     try:
         ctypes.windll.kernel32.SetConsoleOutputCP(65001)
         sys.stdout.reconfigure(encoding="utf-8")

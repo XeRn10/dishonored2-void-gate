@@ -46,8 +46,9 @@
 !/tools/make_voidgate_lang.py
 !/tools/make_voidgate_view.py
 !/tools/vg_build.py
+!/tools/vg_payload.py
 !/tools/vg_setup.py
-!/tools/vg_setup_gui.py
+
 !/tools/x64refs.py
 
 /docs/*
@@ -69,3 +70,8 @@
 
 __pycache__/
 *.pyc
+
+# the native setup: generated payload and build outputs
+/native_d2/setup/gen/
+/native_d2/setup/*.exe
+/native_d2/setup/*.pdb

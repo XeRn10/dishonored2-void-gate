@@ -71,7 +71,8 @@ rebuilds the catalogs without Void Gate, and the setup adds it back.
 ## Uninstall
 
 Run `VoidGate_Uninstall.exe` in the game folder, or run `VoidGateSetup.exe` and choose **Uninstall**. The game
-folder goes back exactly to how it was before Void Gate. The uninstaller then removes itself.
+folder goes back exactly to how it was before Void Gate. Then you can delete `VoidGate_Uninstall.exe` itself
+(Windows does not let a program delete itself while it runs).
 
 If you installed other mods after Void Gate, the uninstaller warns you first. Going back to the state before
 Void Gate removes those mods too, and you can install them again afterwards.
@@ -110,8 +111,10 @@ Void Gate removes those mods too, and you can install them again afterwards.
 - `d2mods/VoidGate/`: the data mod (`files/` = game resources added or changed, `lang/` = texts, `mod.json` =
   index entries). The generators `tools/make_voidgate_*.py` produce most of it from the game's own files, which are
   not included here.
-- `tools/vg_setup.py`: the setup. `tools/vg_build.py` builds the native part, the payload and
-  `release/VoidGateSetup.exe` (needs [PyInstaller](https://pyinstaller.org/)).
+- `native_d2/setup/`: the setup players run, a small native program in C (window, install / uninstall logic,
+  inflate for the game's text files; the payload is packed by `tools/vg_payload.py`). `tools/vg_setup.py` is the
+  same logic in Python, kept as the reference the native setup is tested against. `tools/vg_build.py` builds the
+  native part, the setup and `release/VoidGate-<version>.zip`.
 - `tools/make_sig.py`: makes `native_d2/vg_sig.h`, the code checks of the supported game build.
 - `docs/`: research notes on the engine (raycasts, NPC falls, the portal renderer, cut content) and the test setup.
 
@@ -177,7 +180,8 @@ the game at install time.
 ## Удаление
 
 Запустите `VoidGate_Uninstall.exe` в папке игры или `VoidGateSetup.exe` → **Удалить**. Папка игры станет
-точно такой, какой была до установки Врат, после чего деинсталлятор удалит сам себя. Если после Врат вы ставили
+точно такой, какой была до установки Врат. После этого сам `VoidGate_Uninstall.exe` можно удалить (Windows не
+даёт программе удалить себя, пока она работает). Если после Врат вы ставили
 другие моды, деинсталлятор сначала предупредит: возврат к состоянию до Врат уберёт и их, их можно будет поставить
 заново.
 

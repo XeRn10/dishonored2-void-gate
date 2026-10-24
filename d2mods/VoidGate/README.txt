@@ -24,6 +24,7 @@ PLAY
 UNINSTALL
   Run VoidGate_Uninstall.exe in the game folder (or VoidGateSetup.exe -> Uninstall). The game folder goes back
   exactly to how it was before Void Gate. Saves made with Void Gate still load afterwards; the power is just gone.
+  Then you can delete VoidGate_Uninstall.exe itself.
 
 GAME VERSION
   Made and tested only on the GOG version 1.77.9.0. Other versions (Steam, other patches) have NOT been tested.
@@ -66,6 +67,7 @@ Unofficial fan mod. Dishonored is a trademark of ZeniMax Media; not affiliated w
 УДАЛЕНИЕ
   Запустите VoidGate_Uninstall.exe в папке игры (или VoidGateSetup.exe -> Удалить). Папка игры станет точно
   такой, как до установки Врат. Сохранения с Вратами после этого загружаются, сила из них просто пропадает.
+  После этого сам VoidGate_Uninstall.exe можно удалить.
 
 ВЕРСИЯ ИГРЫ
   Мод сделан и проверен только на GOG-версии 1.77.9.0. Другие версии (Steam, другие патчи) НЕ проверялись.
